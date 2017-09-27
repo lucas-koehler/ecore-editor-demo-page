@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.icon {
+  background-repeat: no-repeat;
+}
+.icon.datatype {
+  background-image: url('./icons/EDataType.gif');
+}
+.icon.enum {
+  background-image: url('./icons/EEnum.gif');
+}
+.icon.enumliteral {
+  background-image: url('./icons/EEnumLiteral.gif');
+}
+.icon.package {
+  background-image: url('./icons/EPackage.gif');
+}
+.icon.parameter {
+  background-image: url('./icons/EParameter.gif');
+}
+.icon.reference {
+  background-image: url('./icons/EReference.gif');
+}
+.icon.typeparameter {
+  background-image: url('./icons/ETypeParameter.gif');
+}
+.icon.class {
+  background-image: url('./icons/EClass.gif');
+}
+.icon.attribute {
+  background-image: url('./icons/EAttribute.gif');
+}
+.icon.operation {
+  background-image: url('./icons/EOperation.gif');
+}
+.icon.annotation {
+  background-image: url('./icons/EAnnotation.gif');
+}
