@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 90);
+/******/ 	return __webpack_require__(__webpack_require__.s = 98);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -17156,7 +17156,7 @@
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12), __webpack_require__(56)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13), __webpack_require__(62)(module)))
 
 /***/ }),
 /* 1 */
@@ -17166,11 +17166,11 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var _ = __webpack_require__(0);
-var uischema_registry_1 = __webpack_require__(32);
-var renderer_service_1 = __webpack_require__(93);
-var styling_registry_1 = __webpack_require__(31);
-var schema_service_impl_1 = __webpack_require__(94);
-var resource_set_1 = __webpack_require__(29);
+var uischema_registry_1 = __webpack_require__(38);
+var renderer_service_1 = __webpack_require__(103);
+var styling_registry_1 = __webpack_require__(37);
+var schema_service_impl_1 = __webpack_require__(104);
+var resource_set_1 = __webpack_require__(35);
 var JsonFormsConfig = (function () {
     function JsonFormsConfig() {
     }
@@ -17295,7 +17295,7 @@ exports.JsonFormsServiceElement = function (config) { return function (cls) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var _ = __webpack_require__(0);
 var path_util_1 = __webpack_require__(4);
-var uischema_registry_1 = __webpack_require__(32);
+var uischema_registry_1 = __webpack_require__(38);
 var isControl = function (uiSchema) { return uiSchema.scope !== undefined; };
 /**
  * Only applicable for Controls.
@@ -17889,7 +17889,7 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var renderer_1 = __webpack_require__(5);
 var runtime_1 = __webpack_require__(6);
-var label_util_1 = __webpack_require__(15);
+var label_util_1 = __webpack_require__(16);
 var core_1 = __webpack_require__(1);
 /**
  * Convenience base class for all renderers that represent controls.
@@ -18053,6 +18053,30 @@ exports.BaseControl = BaseControl;
 
 "use strict";
 
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(__webpack_require__(1));
+__export(__webpack_require__(107));
+__export(__webpack_require__(4));
+__export(__webpack_require__(15));
+__export(__webpack_require__(5));
+__export(__webpack_require__(6));
+__export(__webpack_require__(36));
+__export(__webpack_require__(37));
+__export(__webpack_require__(2));
+__export(__webpack_require__(39));
+__export(__webpack_require__(125));
+__export(__webpack_require__(127));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 
 module.exports = {
@@ -18063,14 +18087,14 @@ module.exports = {
   toHash: toHash,
   getProperty: getProperty,
   escapeQuotes: escapeQuotes,
-  ucs2length: __webpack_require__(125),
+  ucs2length: __webpack_require__(135),
   varOccurences: varOccurences,
   varReplace: varReplace,
   cleanUpCode: cleanUpCode,
   cleanUpVarErrors: cleanUpVarErrors,
   schemaHasRules: schemaHasRules,
   schemaHasRulesExcept: schemaHasRulesExcept,
-  stableStringify: __webpack_require__(10),
+  stableStringify: __webpack_require__(11),
   toQuotedString: toQuotedString,
   getPathExpr: getPathExpr,
   getPath: getPath,
@@ -18312,7 +18336,7 @@ function unescapeJsonPointer(str) {
 
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18327,8 +18351,8 @@ module.exports = {
   toHash: toHash,
   getProperty: getProperty,
   escapeQuotes: escapeQuotes,
-  equal: __webpack_require__(18),
-  ucs2length: __webpack_require__(67),
+  equal: __webpack_require__(19),
+  ucs2length: __webpack_require__(74),
   varOccurences: varOccurences,
   varReplace: varReplace,
   cleanUpCode: cleanUpCode,
@@ -18586,10 +18610,10 @@ function unescapeJsonPointer(str) {
 
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var json = typeof JSON !== 'undefined' ? JSON : __webpack_require__(149);
+var json = typeof JSON !== 'undefined' ? JSON : __webpack_require__(159);
 
 module.exports = function (obj, opts) {
     if (!opts) opts = {};
@@ -18676,7 +18700,7 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18691,11 +18715,11 @@ var objectKeys = Object.keys || function (obj) {
 /* harmony export (immutable) */ __webpack_exports__["j"] = equal;
 /* harmony export (immutable) */ __webpack_exports__["k"] = escapeComponent;
 /* harmony export (immutable) */ __webpack_exports__["l"] = unescapeComponent;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__regexps_uri__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__regexps_iri__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_punycode__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__regexps_uri__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__regexps_iri__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_punycode__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_punycode___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_punycode__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util__ = __webpack_require__(22);
 /**
  * URI.js
  *
@@ -19117,7 +19141,7 @@ function unescapeComponent(str, options) {
 //# sourceMappingURL=uri.js.map
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports) {
 
 var g;
@@ -19144,7 +19168,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports) {
 
 
@@ -19387,7 +19411,7 @@ function isObject(val) {
 
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19468,7 +19492,7 @@ exports.DataService = DataService;
 //# sourceMappingURL=data.service.js.map
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19540,13 +19564,13 @@ exports.getElementLabelObject = function (schema, controlElement) {
 //# sourceMappingURL=label.util.js.map
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var resolve = __webpack_require__(17);
+var resolve = __webpack_require__(18);
 
 module.exports = {
   Validation: errorSubclass(ValidationError),
@@ -19581,17 +19605,17 @@ function errorSubclass(Subclass) {
 
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var url = __webpack_require__(53)
-  , equal = __webpack_require__(18)
-  , util = __webpack_require__(9)
-  , SchemaObject = __webpack_require__(22)
-  , traverse = __webpack_require__(92);
+var url = __webpack_require__(59)
+  , equal = __webpack_require__(19)
+  , util = __webpack_require__(10)
+  , SchemaObject = __webpack_require__(27)
+  , traverse = __webpack_require__(102);
 
 module.exports = resolve;
 
@@ -19859,7 +19883,7 @@ function resolveIds(schema) {
 
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19909,7 +19933,7 @@ module.exports = function equal(a, b) {
 
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19944,7 +19968,7 @@ exports.createRuntimeNotificationEvaluator = function (self, uischema) {
 //# sourceMappingURL=layout.util.js.map
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -20480,10 +20504,10 @@ exports.createRuntimeNotificationEvaluator = function (self, uischema) {
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(56)(module), __webpack_require__(12)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(62)(module), __webpack_require__(13)))
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20521,13 +20545,462 @@ function toArray(obj) {
 //# sourceMappingURL=util.js.map
 
 /***/ }),
-/* 22 */
+/* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var jsonforms_1 = __webpack_require__(8);
+var etype_renderer_1 = __webpack_require__(33);
+exports.eAttributeRendererTester = jsonforms_1.rankWith(3, jsonforms_1.and(jsonforms_1.uiTypeIs('Control'), jsonforms_1.optionIs('id', 'eAttribute')));
+var standardDatatypes = [
+    'http://www.eclipse.org/emf/2002/Ecore#//EBoolean',
+    'http://www.eclipse.org/emf/2002/Ecore#//EDate',
+    'http://www.eclipse.org/emf/2002/Ecore#//EDouble',
+    'http://www.eclipse.org/emf/2002/Ecore#//EInt',
+    'http://www.eclipse.org/emf/2002/Ecore#//EString'
+];
+var EAttributeControl = /** @class */ (function (_super) {
+    __extends(EAttributeControl, _super);
+    function EAttributeControl() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    EAttributeControl.prototype.getDefaultOptionLabel = function () {
+        return 'Select Datatype:';
+    };
+    EAttributeControl.prototype.addOptions = function (input) {
+        _super.prototype.addOptions.call(this, input);
+        // add standard emf datatypes
+        standardDatatypes.forEach(function (datatype, index) {
+            var option = document.createElement('option');
+            option.value = datatype;
+            option.label = datatype;
+            option.innerText = datatype;
+            input.appendChild(option);
+        });
+    };
+    EAttributeControl = __decorate([
+        jsonforms_1.JsonFormsRenderer({
+            selector: 'jsonforms-eattribute-control',
+            tester: exports.eAttributeRendererTester
+        })
+    ], EAttributeControl);
+    return EAttributeControl;
+}(etype_renderer_1.ETypeControl));
+
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var jsonforms_1 = __webpack_require__(8);
+var etype_renderer_1 = __webpack_require__(33);
+exports.eReferenceRendererTester = jsonforms_1.rankWith(3, jsonforms_1.and(jsonforms_1.uiTypeIs('Control'), jsonforms_1.optionIs('id', 'eReference')));
+var EReferenceControl = /** @class */ (function (_super) {
+    __extends(EReferenceControl, _super);
+    function EReferenceControl() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    EReferenceControl.prototype.getDefaultOptionLabel = function () {
+        return 'Select EClass:';
+    };
+    EReferenceControl = __decorate([
+        jsonforms_1.JsonFormsRenderer({
+            selector: 'jsonforms-ereference-control',
+            tester: exports.eReferenceRendererTester
+        })
+    ], EReferenceControl);
+    return EReferenceControl;
+}(etype_renderer_1.ETypeControl));
+
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+var jsonforms_1 = __webpack_require__(8);
+var _ = __webpack_require__(0);
+__export(__webpack_require__(26));
+/**
+ * The JsonEditor renders JSON data specified by a JSON Schema.
+ * It displays the data's containment hierarchy in a tree and allows to
+ * edit the data objects' properties.
+ * Thereby, the visual representation of the editor can be customized by providing
+ * mappings that map types defined in the schema to images, define the types'
+ * naming property, and defining a mapping between an object's property and its type.
+ */
+var JsonEditor = /** @class */ (function (_super) {
+    __extends(JsonEditor, _super);
+    function JsonEditor() {
+        var _this = _super.call(this) || this;
+        _this.connected = false;
+        _this.masterDetail = {
+            'type': 'MasterDetailLayout',
+            'scope': {
+                '$ref': '#'
+            },
+            'options': {}
+        };
+        return _this;
+    }
+    JsonEditor.prototype.connectedCallback = function () {
+        this.connected = true;
+        this.render();
+    };
+    JsonEditor.prototype.diconnectedCallback = function () {
+        this.connected = false;
+    };
+    Object.defineProperty(JsonEditor.prototype, "data", {
+        /**
+         * Returns the current data displayed in the editor.
+         */
+        get: function () {
+            return this.dataObject;
+        },
+        /**
+         * Sets the data edited in the editor
+         */
+        set: function (data) {
+            this.dataObject = data;
+            jsonforms_1.JsonForms.rootData = data;
+            this.render();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(JsonEditor.prototype, "schema", {
+        /**
+         * Get the JsonSchema defining the editor's data.
+         */
+        get: function () {
+            return this.dataSchema;
+        },
+        /**
+         * Set the JsonSchema defining the editor's data.
+         */
+        set: function (schema) {
+            this.dataSchema = schema;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Allows to configure the editor with a single EditorConfiguration object.
+     */
+    JsonEditor.prototype.configure = function (config) {
+        var _this = this;
+        if (!_.isEmpty(config.imageMapping)) {
+            this.setImageMapping(config.imageMapping);
+        }
+        if (!_.isEmpty(config.labelMapping)) {
+            this.setLabelMapping(config.labelMapping);
+        }
+        if (!_.isEmpty(config.modelMapping)) {
+            this.setModelMapping(config.modelMapping);
+        }
+        // register all UI Schemata
+        if (!_.isEmpty(config.detailSchemata)) {
+            Object.keys(config.detailSchemata).forEach(function (key) {
+                try {
+                    var uiSchema = config.detailSchemata[key];
+                    _this.registerDetailSchema(key, uiSchema);
+                }
+                catch (e) {
+                    console.warn("Data registered for id '" + key + "' is not a valid UI Schema:", config.detailSchemata[key]);
+                }
+            });
+        }
+        if (!_.isEmpty(config.resources)) {
+            Object.keys(config.resources).forEach(function (name) {
+                _this.registerResource(name, config.resources[name]);
+            });
+        }
+        this.dataSchema = config.dataSchema;
+        if (!_.isEmpty(config.data)) {
+            this.data = config.data;
+        }
+        else {
+            this.data = {};
+        }
+    };
+    /**
+     * Configures the label mappings for the types defined in the editor's schema.
+     * A label mapping maps from a schema id to a property defined in this schema.
+     * This property defines the name of a rendered object in the containment tree.
+     */
+    JsonEditor.prototype.setLabelMapping = function (labelMapping) {
+        this.masterDetail.options.labelProvider = labelMapping;
+    };
+    /**
+     * Configures the image mappings for the types defined in the editor's schema.
+     * An image mapping maps from a schema id to the schema's image name.
+     * This name is used to resolve the css style that configure a label
+     * for instances of the type in the containment tree.
+     */
+    JsonEditor.prototype.setImageMapping = function (imageMapping) {
+        this.masterDetail.options.imageProvider = imageMapping;
+    };
+    /**
+     * The model mapping defines mappings from a property value to a type.
+     * Thereby, the model mapping defines which property is considered.
+     * This property is the same for all types.
+     * A mapping maps from a specific value of this property to a schema id.
+     * If an element contains a mapped value in the defined property,
+     * it is assumed to be of the type defined by the mapped schema id.
+     *
+     * A model mapping is necessary for all types used in anyOf sections of a schema
+     * in order to determine which type objects of a "anyOf-property" belong to.
+     */
+    JsonEditor.prototype.setModelMapping = function (modelMapping) {
+        jsonforms_1.JsonForms.modelMapping = modelMapping;
+        this.masterDetail.options.modelMapping = modelMapping;
+    };
+    /**
+     * Register a resource for the given name.
+     * The resource can be used as reference target or to specify a reference target schema.
+     */
+    JsonEditor.prototype.registerResource = function (name, resource) {
+        // Register resource and resolve JSON References/Pointers
+        jsonforms_1.JsonForms.resources.registerResource(name, resource, true);
+    };
+    /**
+     * Registers a UI Schema for objects defined by the schema specified by the given schema id.
+     * A registered UI Schema is used when rendering a suitable object
+     * that was selected in the containment tree.
+     * The UI Schema specifies rendered controls, layouts, and additional rendering information.
+     * Thereby, the UI Schema is the same as the UI Schemata used in JsonForms 2.
+     *
+     * @param {string} schemaId The id of the type's JsonSchema that the UI Schema is registered for
+     * @param {UISchemaElement} uiSchema The UI Schema to use when rendering instances of the schema
+     */
+    JsonEditor.prototype.registerDetailSchema = function (schemaId, uiSchema) {
+        jsonforms_1.JsonForms.uischemaRegistry.register(uiSchema, function (schema, data) {
+            return schema.id !== undefined && schema.id === schemaId ? 2 : -1;
+        });
+    };
+    JsonEditor.prototype.render = function () {
+        if (!this.connected || this.dataObject === undefined || this.dataObject === null
+            || _.isEmpty(this.dataSchema)) {
+            return;
+        }
+        if (this.jsonforms === undefined) {
+            this.jsonforms = document.createElement('json-forms');
+        }
+        this.jsonforms.uiSchema = this.masterDetail;
+        this.jsonforms.dataSchema = this.dataSchema;
+        this.jsonforms.data = this.dataObject;
+        this.appendChild(this.jsonforms);
+    };
+    return JsonEditor;
+}(HTMLElement));
+exports.JsonEditor = JsonEditor;
+if (!customElements.get('json-editor')) {
+    customElements.define('json-editor', JsonEditor);
+}
+
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var _ = __webpack_require__(0);
+var Ajv = __webpack_require__(67);
+/**
+ * Handler for a file input change event.
+ * Loads the file, converts it to JSON and validates it against the editor's schema.
+ * If these steps are successful, the loaded data is set in the editor.
+ */
+var fileInputHandler = function (editor) { return function (evt) {
+    // triggered after a file was selected
+    var target = evt.target;
+    var files = target.files;
+    if (_.isEmpty(files) || files.length > 1) {
+        return;
+    }
+    var file = files[0];
+    var reader = new FileReader();
+    // Callback when the file was loaded
+    reader.onload = function (event) {
+        if (reader.result === undefined || reader.result === null) {
+            console.error('Could not read data');
+        }
+        var readData;
+        try {
+            readData = JSON.parse(reader.result);
+        }
+        catch (err) {
+            console.error('The loaded file did not contain valid JSON.', err);
+            alert("The selected file '" + file.name + "' does not contain valid JSON");
+            return;
+        }
+        if (!_.isEmpty(readData)) {
+            var ajv = new Ajv();
+            var valid = ajv.validate(editor.schema, readData);
+            if (valid) {
+                editor.data = readData;
+            }
+            else {
+                alert('Loaded data does not adhere to the specified schema.');
+                console.error('Loaded data does not adhere to the specified schema.');
+                return;
+            }
+        }
+    };
+    reader.readAsText(file);
+}; };
+/**
+ * Configures the given button to allow uploading data as a file to the given editor.
+ *
+ * @param {Editor} editor The editor for which data is uploaded
+ * @param {HTMLElement} uploadButton The button that will trigger the upload dialog
+ */
+exports.configureUploadButton = function (editor, uploadButton) {
+    // create hidden file input element
+    var fileInput = document.createElement('input');
+    fileInput.type = 'file';
+    fileInput.style.display = 'none';
+    fileInput.addEventListener('change', fileInputHandler(editor));
+    // the button triggers the hidden input element
+    uploadButton.onclick = function () {
+        fileInput.click();
+    };
+};
+/**
+ * Configures the given button to allow uploading data as a file from the given editor.
+ *
+ * @param {Editor} editor The editor for which data is uploaded
+ * @param {HTMLElement} downloadButton The button that will trigger the download
+ */
+exports.configureDownloadButton = function (editor, downloadButton) {
+    downloadButton.onclick = function () {
+        var a = document.createElement('a');
+        var file = new Blob([JSON.stringify(editor.data, null, 2)], { type: 'application/json' });
+        a.href = URL.createObjectURL(file);
+        a.download = 'download.json';
+        a.click();
+        // TODO a.remove() ?
+    };
+};
+/**
+ * Creates and returns a dialog to display the editor's model data in a text area.
+ */
+exports.createExportDataDialog = function () {
+    var dialog = document.createElement('dialog');
+    dialog.classList.add('export-data-dialog');
+    var dialogContent = document.createElement('div');
+    dialogContent.classList.add('export-data-dialog-content');
+    dialog.appendChild(dialogContent);
+    var dialogTitle = document.createElement('label');
+    dialogTitle.innerText = 'Model Data:';
+    dialogTitle.classList.add('export-data-dialog-title');
+    var textarea = document.createElement('textarea');
+    textarea.classList.add('export-data-dialog-textarea');
+    textarea.readOnly = true;
+    var buttonsDiv = document.createElement('div');
+    buttonsDiv.classList.add('export-data-dialog-buttons');
+    var dialogClose = document.createElement('button');
+    dialogClose.innerText = 'Close';
+    dialogClose.classList.add('btn');
+    dialogClose.onclick = function () {
+        dialog.close();
+    };
+    var dialogCopy = document.createElement('button');
+    dialogCopy.classList.add('btn');
+    dialogCopy.innerText = 'Copy';
+    dialogCopy.onclick = function () {
+        document.execCommand('copy');
+    };
+    buttonsDiv.appendChild(dialogCopy);
+    buttonsDiv.appendChild(dialogClose);
+    dialogContent.appendChild(dialogTitle);
+    dialogContent.appendChild(textarea);
+    dialogContent.appendChild(buttonsDiv);
+    return dialog;
+};
+/**
+ * Configures the given button to open the given export dialog on click and to set
+ * the dialog's content according to the editor's state.
+ *
+ * @param {Editor} editor The editor whose data is exported
+ * @param {HTMLElement} exportButton The button that will open the export dialog
+ * @param exportDialog The export dialog that is used to display the data
+ *                     {@see createExportDataDialog}
+ */
+exports.configureExportButton = function (editor, exportButton, exportDialog) {
+    exportButton.onclick = function () {
+        var json = JSON.stringify(editor.data, null, 2);
+        var textarea = exportDialog.getElementsByTagName('textarea').item(0);
+        textarea.textContent = json;
+        exportDialog.showModal();
+        textarea.focus();
+        textarea.select();
+    };
+};
+
+
+/***/ }),
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var util = __webpack_require__(9);
+var util = __webpack_require__(10);
 
 module.exports = SchemaObject;
 
@@ -20537,7 +21010,7 @@ function SchemaObject(obj) {
 
 
 /***/ }),
-/* 23 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20693,7 +21166,7 @@ module.exports = function generate__limit(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 24 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20776,7 +21249,7 @@ module.exports = function generate__limitItems(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 25 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20864,7 +21337,7 @@ module.exports = function generate__limitLength(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 26 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20947,7 +21420,7 @@ module.exports = function generate__limitProperties(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 27 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21412,7 +21885,39 @@ module.exports = function generate_validate(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 28 */
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", { value: true });
+var jsonforms_1 = __webpack_require__(8);
+var labelProperty = 'name';
+var ETypeControl = /** @class */ (function (_super) {
+    __extends(ETypeControl, _super);
+    function ETypeControl() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    ETypeControl.prototype.getLabelProperty = function () {
+        return labelProperty;
+    };
+    return ETypeControl;
+}(jsonforms_1.ReferenceControl));
+exports.ETypeControl = ETypeControl;
+
+
+/***/ }),
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21449,11 +21954,11 @@ module.exports = function generate_validate(it, $keyword, $ruleType) {
  * @module JsonRefs
  */
 
-var path = __webpack_require__(152);
-var PathLoader = __webpack_require__(153);
-var qs = __webpack_require__(49);
-var slash = __webpack_require__(158);
-var URI = __webpack_require__(166);
+var path = __webpack_require__(162);
+var PathLoader = __webpack_require__(163);
+var qs = __webpack_require__(55);
+var slash = __webpack_require__(168);
+var URI = __webpack_require__(176);
 
 var badPtrTokenRegex = /~(?:[^01]|$)/g;
 var remoteCache = {};
@@ -21464,7 +21969,7 @@ var uriDetailsCache = {};
 // Load promises polyfill if necessary
 /* istanbul ignore if */
 if (typeof Promise === 'undefined') {
-  __webpack_require__(46);
+  __webpack_require__(52);
 }
 
 /* Internal Functions */
@@ -22793,13 +23298,13 @@ module.exports.resolveRefsAt = resolveRefsAt;
 
 
 /***/ }),
-/* 29 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var JsonRefs = __webpack_require__(28);
+var JsonRefs = __webpack_require__(34);
 exports.RS_PROTOCOL = 'rs://';
 var ResourceSetImpl = (function () {
     function ResourceSetImpl() {
@@ -22835,7 +23340,7 @@ exports.ResourceSetImpl = ResourceSetImpl;
 //# sourceMappingURL=resource-set.js.map
 
 /***/ }),
-/* 30 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22957,7 +23462,7 @@ exports.isReferenceProperty = function (property) {
 //# sourceMappingURL=schema.service.js.map
 
 /***/ }),
-/* 31 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23030,14 +23535,14 @@ exports.StylingRegistryImpl = StylingRegistryImpl;
 //# sourceMappingURL=styling.registry.js.map
 
 /***/ }),
-/* 32 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var _ = __webpack_require__(0);
-var ui_schema_gen_1 = __webpack_require__(96);
+var ui_schema_gen_1 = __webpack_require__(106);
 /**
  * Constant that indicates that a tester is not capable of handling
  * a combination of schema/data.
@@ -23093,7 +23598,7 @@ exports.UISchemaRegistryImpl = UISchemaRegistryImpl;
 //# sourceMappingURL=uischema.registry.js.map
 
 /***/ }),
-/* 33 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23124,7 +23629,7 @@ var RuleEffect;
 //# sourceMappingURL=uischema.js.map
 
 /***/ }),
-/* 34 */
+/* 40 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -23133,36 +23638,36 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 34;
+webpackEmptyContext.id = 40;
 
 /***/ }),
-/* 35 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var compileSchema = __webpack_require__(123)
-  , resolve = __webpack_require__(38)
-  , Cache = __webpack_require__(119)
-  , SchemaObject = __webpack_require__(39)
-  , stableStringify = __webpack_require__(10)
-  , formats = __webpack_require__(122)
-  , rules = __webpack_require__(124)
-  , v5 = __webpack_require__(148)
-  , util = __webpack_require__(8)
-  , async = __webpack_require__(36)
-  , co = __webpack_require__(13);
+var compileSchema = __webpack_require__(133)
+  , resolve = __webpack_require__(44)
+  , Cache = __webpack_require__(129)
+  , SchemaObject = __webpack_require__(45)
+  , stableStringify = __webpack_require__(11)
+  , formats = __webpack_require__(132)
+  , rules = __webpack_require__(134)
+  , v5 = __webpack_require__(158)
+  , util = __webpack_require__(9)
+  , async = __webpack_require__(42)
+  , co = __webpack_require__(14);
 
 module.exports = Ajv;
 
 Ajv.prototype.compileAsync = async.compile;
 
-var customKeyword = __webpack_require__(145);
+var customKeyword = __webpack_require__(155);
 Ajv.prototype.addKeyword = customKeyword.add;
 Ajv.prototype.getKeyword = customKeyword.get;
 Ajv.prototype.removeKeyword = customKeyword.remove;
-Ajv.ValidationError = __webpack_require__(40);
+Ajv.ValidationError = __webpack_require__(46);
 
 var META_SCHEMA_ID = 'http://json-schema.org/draft-04/schema';
 var SCHEMA_URI_FORMAT = /^(?:(?:[a-z][a-z0-9+-.]*:)?\/\/)?[^\s]*$/i;
@@ -23524,7 +24029,7 @@ function Ajv(opts) {
 
   function addDraft4MetaSchema() {
     if (self._opts.meta !== false) {
-      var metaSchema = __webpack_require__(146);
+      var metaSchema = __webpack_require__(156);
       addMetaSchema(metaSchema, META_SCHEMA_ID, true);
       self._refs['http://json-schema.org/schema'] = META_SCHEMA_ID;
     }
@@ -23563,7 +24068,7 @@ function Ajv(opts) {
 
 
 /***/ }),
-/* 36 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23575,7 +24080,7 @@ module.exports = {
 };
 
 
-var util = __webpack_require__(8);
+var util = __webpack_require__(9);
 
 var ASYNC = {
   '*': checkGenerators,
@@ -23788,7 +24293,7 @@ function compileAsync(schema, callback) {
 
 
 /***/ }),
-/* 37 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23840,16 +24345,16 @@ module.exports = function equal(a, b) {
 
 
 /***/ }),
-/* 38 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var url = __webpack_require__(53)
-  , equal = __webpack_require__(37)
-  , util = __webpack_require__(8)
-  , SchemaObject = __webpack_require__(39);
+var url = __webpack_require__(59)
+  , equal = __webpack_require__(43)
+  , util = __webpack_require__(9)
+  , SchemaObject = __webpack_require__(45);
 
 module.exports = resolve;
 
@@ -24114,13 +24619,13 @@ function resolveIds(schema) {
 
 
 /***/ }),
-/* 39 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var util = __webpack_require__(8);
+var util = __webpack_require__(9);
 
 module.exports = SchemaObject;
 
@@ -24130,7 +24635,7 @@ function SchemaObject(obj) {
 
 
 /***/ }),
-/* 40 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24151,7 +24656,7 @@ ValidationError.prototype.constructor = ValidationError;
 
 
 /***/ }),
-/* 41 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24282,7 +24787,7 @@ module.exports = function generate__limit(it, $keyword) {
 
 
 /***/ }),
-/* 42 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24365,7 +24870,7 @@ module.exports = function generate__limitItems(it, $keyword) {
 
 
 /***/ }),
-/* 43 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24453,7 +24958,7 @@ module.exports = function generate__limitLength(it, $keyword) {
 
 
 /***/ }),
-/* 44 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24536,7 +25041,7 @@ module.exports = function generate__limitProperties(it, $keyword) {
 
 
 /***/ }),
-/* 45 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24918,7 +25423,7 @@ module.exports = function generate_validate(it, $keyword) {
 
 
 /***/ }),
-/* 46 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, setImmediate) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! Native Promise Only
@@ -25296,10 +25801,10 @@ module.exports = function generate_validate(it, $keyword) {
 	return Promise;
 });
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12), __webpack_require__(165).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13), __webpack_require__(175).setImmediate))
 
 /***/ }),
-/* 47 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25331,7 +25836,7 @@ module.exports = function generate_validate(it, $keyword) {
 
 
 
-var request = __webpack_require__(160);
+var request = __webpack_require__(170);
 
 var supportedHttpMethods = ['delete', 'get', 'head', 'patch', 'post', 'put'];
 
@@ -25402,7 +25907,7 @@ module.exports.load = function (location, options, callback) {
 
 
 /***/ }),
-/* 48 */
+/* 54 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -25592,18 +26097,18 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 49 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(155);
-exports.encode = exports.stringify = __webpack_require__(156);
+exports.decode = exports.parse = __webpack_require__(165);
+exports.encode = exports.stringify = __webpack_require__(166);
 
 
 /***/ }),
-/* 50 */
+/* 56 */
 /***/ (function(module, exports) {
 
 /**
@@ -25622,12 +26127,12 @@ module.exports = isObject;
 
 
 /***/ }),
-/* 51 */
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = buildExps;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(22);
 
 function buildExps(isIRI) {
     const ALPHA$$ = "[A-Za-z]", CR$ = "[\\x0D]", DIGIT$$ = "[0-9]", DQUOTE$$ = "[\\x22]", HEXDIG$$ = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util__["c" /* merge */])(DIGIT$$, "[A-Fa-f]"), //case-insensitive
@@ -25666,7 +26171,7 @@ function buildExps(isIRI) {
 //# sourceMappingURL=regexps-uri.js.map
 
 /***/ }),
-/* 52 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25698,7 +26203,7 @@ function buildExps(isIRI) {
 //# sourceMappingURL=http.js.map
 
 /***/ }),
-/* 53 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25725,8 +26230,8 @@ function buildExps(isIRI) {
 
 
 
-var punycode = __webpack_require__(20);
-var util = __webpack_require__(172);
+var punycode = __webpack_require__(21);
+var util = __webpack_require__(182);
 
 exports.parse = urlParse;
 exports.resolve = urlResolve;
@@ -25801,7 +26306,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(49);
+    querystring = __webpack_require__(55);
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -26437,7 +26942,7 @@ Url.prototype.parseHost = function() {
 
 
 /***/ }),
-/* 54 */
+/* 60 */
 /***/ (function(module, exports) {
 
 /**
@@ -26466,7 +26971,7 @@ module.exports = bytesToUuid;
 
 
 /***/ }),
-/* 55 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {// Unique ID creation requires a high quality random # generator.  In the
@@ -26503,10 +27008,10 @@ if (!rng) {
 
 module.exports = rng;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
 
 /***/ }),
-/* 56 */
+/* 62 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -26534,173 +27039,212 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 57 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 Object.defineProperty(exports, "__esModule", { value: true });
-var _ = __webpack_require__(0);
-var Ajv = __webpack_require__(60);
-/**
- * Handler for a file input change event.
- * Loads the file, converts it to JSON and validates it against the editor's schema.
- * If these steps are successful, the loaded data is set in the editor.
- */
-var fileInputHandler = function (editor) { return function (evt) {
-    // triggered after a file was selected
-    var target = evt.target;
-    var files = target.files;
-    if (_.isEmpty(files) || files.length > 1) {
-        return;
+var jsonforms_1 = __webpack_require__(8);
+__webpack_require__(25);
+__webpack_require__(24);
+__webpack_require__(23);
+var ecore_config_1 = __webpack_require__(97);
+var EcoreEditor = /** @class */ (function (_super) {
+    __extends(EcoreEditor, _super);
+    function EcoreEditor() {
+        var _this = _super.call(this) || this;
+        _this.useLocalREST = false;
+        _this.connected = false;
+        return _this;
     }
-    var file = files[0];
-    var reader = new FileReader();
-    // Callback when the file was loaded
-    reader.onload = function (event) {
-        if (reader.result === undefined || reader.result === null) {
-            console.error('Could not read data');
-        }
-        var readData;
-        try {
-            readData = JSON.parse(reader.result);
-        }
-        catch (err) {
-            console.error('The loaded file did not contain valid JSON.', err);
-            alert("The selected file '" + file.name + "' does not contain valid JSON");
-            return;
-        }
-        if (!_.isEmpty(readData)) {
-            var ajv = new Ajv();
-            var valid = ajv.validate(editor.schema, readData);
-            if (valid) {
-                editor.data = readData;
+    EcoreEditor.prototype.connectedCallback = function () {
+        this.connected = true;
+        this.render();
+    };
+    EcoreEditor.prototype.diconnectedCallback = function () {
+        this.connected = false;
+    };
+    Object.defineProperty(EcoreEditor.prototype, "data", {
+        get: function () {
+            if (this.editor !== undefined && this.editor !== null) {
+                return this.editor.data;
             }
-            else {
-                alert('Loaded data does not adhere to the specified schema.');
-                console.error('Loaded data does not adhere to the specified schema.');
+            return null;
+        },
+        set: function (data) {
+            if (this.editor !== undefined && this.editor !== null) {
+                this.editor.data = data;
                 return;
             }
+            console.warn('Could not set data of ecore editor because it has not been rendered, yet.');
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(EcoreEditor.prototype, "schema", {
+        get: function () {
+            if (this.editor !== undefined && this.editor !== null) {
+                return this.editor.schema;
+            }
+            return undefined;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    EcoreEditor.prototype.render = function () {
+        if (!this.connected) {
+            return;
         }
+        if (this.editor === undefined) {
+            this.editor = document.createElement('json-editor');
+            this.editor.configure(ecore_config_1.editorConfig);
+            jsonforms_1.JsonForms.config.setIdentifyingProp('_id');
+        }
+        this.appendChild(this.editor);
     };
-    reader.readAsText(file);
-}; };
-/**
- * Configures the given button to allow uploading data as a file to the given editor.
- *
- * @param {Editor} editor The editor for which data is uploaded
- * @param {HTMLElement} uploadButton The button that will trigger the upload dialog
- */
-exports.configureUploadButton = function (editor, uploadButton) {
-    // create hidden file input element
-    var fileInput = document.createElement('input');
-    fileInput.type = 'file';
-    fileInput.style.display = 'none';
-    fileInput.addEventListener('change', fileInputHandler(editor));
-    // the button triggers the hidden input element
-    uploadButton.onclick = function () {
-        fileInput.click();
-    };
-};
-/**
- * Configures the given button to allow uploading data as a file from the given editor.
- *
- * @param {Editor} editor The editor for which data is uploaded
- * @param {HTMLElement} downloadButton The button that will trigger the download
- */
-exports.configureDownloadButton = function (editor, downloadButton) {
-    downloadButton.onclick = function () {
-        var a = document.createElement('a');
-        var file = new Blob([JSON.stringify(editor.data, null, 2)], { type: 'application/json' });
-        a.href = URL.createObjectURL(file);
-        a.download = 'download.json';
-        a.click();
-        // TODO a.remove() ?
-    };
-};
-/**
- * Creates and returns a dialog to display the editor's model data in a text area.
- */
-exports.createExportDataDialog = function () {
-    var dialog = document.createElement('dialog');
-    dialog.classList.add('export-data-dialog');
-    var dialogContent = document.createElement('div');
-    dialogContent.classList.add('export-data-dialog-content');
-    dialog.appendChild(dialogContent);
-    var dialogTitle = document.createElement('label');
-    dialogTitle.innerText = 'Model Data:';
-    dialogTitle.classList.add('export-data-dialog-title');
-    var textarea = document.createElement('textarea');
-    textarea.classList.add('export-data-dialog-textarea');
-    textarea.readOnly = true;
-    var buttonsDiv = document.createElement('div');
-    buttonsDiv.classList.add('export-data-dialog-buttons');
-    var dialogClose = document.createElement('button');
-    dialogClose.innerText = 'Close';
-    dialogClose.classList.add('btn');
-    dialogClose.onclick = function () {
-        dialog.close();
-    };
-    var dialogCopy = document.createElement('button');
-    dialogCopy.classList.add('btn');
-    dialogCopy.innerText = 'Copy';
-    dialogCopy.onclick = function () {
-        document.execCommand('copy');
-    };
-    buttonsDiv.appendChild(dialogCopy);
-    buttonsDiv.appendChild(dialogClose);
-    dialogContent.appendChild(dialogTitle);
-    dialogContent.appendChild(textarea);
-    dialogContent.appendChild(buttonsDiv);
-    return dialog;
-};
-/**
- * Configures the given button to open the given export dialog on click and to set
- * the dialog's content according to the editor's state.
- *
- * @param {Editor} editor The editor whose data is exported
- * @param {HTMLElement} exportButton The button that will open the export dialog
- * @param exportDialog The export dialog that is used to display the data
- *                     {@see createExportDataDialog}
- */
-exports.configureExportButton = function (editor, exportButton, exportDialog) {
-    exportButton.onclick = function () {
-        var json = JSON.stringify(editor.data, null, 2);
-        var textarea = exportDialog.getElementsByTagName('textarea').item(0);
-        textarea.textContent = json;
-        exportDialog.showModal();
-        textarea.focus();
-        textarea.select();
-    };
-};
+    return EcoreEditor;
+}(HTMLElement));
+exports.EcoreEditor = EcoreEditor;
+if (!customElements.get('ecore-editor')) {
+    customElements.define('ecore-editor', EcoreEditor);
+}
 
 
 /***/ }),
-/* 58 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(__webpack_require__(1));
-__export(__webpack_require__(97));
-__export(__webpack_require__(4));
-__export(__webpack_require__(14));
-__export(__webpack_require__(5));
-__export(__webpack_require__(6));
-__export(__webpack_require__(30));
-__export(__webpack_require__(31));
-__export(__webpack_require__(2));
-__export(__webpack_require__(33));
-__export(__webpack_require__(115));
-__export(__webpack_require__(117));
-//# sourceMappingURL=index.js.map
+var jsonforms_1 = __webpack_require__(8);
+exports.applyMaterialStyle = function () {
+    jsonforms_1.JsonForms.stylingRegistry.registerMany([
+        {
+            name: 'button',
+            classNames: ['btn', 'waves-effect', 'waves-light']
+        },
+        {
+            name: 'array.button',
+            classNames: ['btn-floating', 'waves-effect', 'waves-light', 'array-button']
+        },
+        {
+            name: 'array.layout',
+            classNames: ['z-depth-3']
+        },
+        {
+            name: 'group.layout',
+            classNames: ['z-depth-3']
+        },
+        {
+            name: 'group.label',
+            classNames: ['group.label']
+        },
+        {
+            name: 'collection',
+            classNames: ['collection']
+        },
+        {
+            name: 'item',
+            classNames: ['collection-item']
+        },
+        {
+            name: 'item-active',
+            classNames: ['active']
+        },
+        {
+            name: 'horizontal-layout',
+            classNames: ['row']
+        },
+        {
+            name: 'json-forms',
+            classNames: ['container']
+        }
+    ]);
+    jsonforms_1.JsonForms.stylingRegistry.register({
+        name: 'horizontal-layout-item',
+        classNames: function (childrenSize) {
+            var colSize = Math.floor(12 / childrenSize[0]);
+            return ['col', "s" + colSize];
+        }
+    });
+    jsonforms_1.JsonForms.stylingRegistry.register({
+        name: 'vertical-layout-item',
+        classNames: ['vertical-layout-item']
+    });
+    jsonforms_1.JsonForms.stylingRegistry.deregister('select');
+    // init selection combo box
+    $('select').material_select();
+};
+
 
 /***/ }),
-/* 59 */
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var jsonforms_1 = __webpack_require__(8);
+var MaterializedTreeMasterDetailRenderer = /** @class */ (function (_super) {
+    __extends(MaterializedTreeMasterDetailRenderer, _super);
+    function MaterializedTreeMasterDetailRenderer() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    MaterializedTreeMasterDetailRenderer.prototype.renderDetail = function (element, label, schema) {
+        _super.prototype.renderDetail.call(this, element, label, schema);
+        // init selects and remove description option when the reference is already set
+        setTimeout(function () {
+            var selectList = $('select');
+            for (var _i = 0, selectList_1 = selectList; _i < selectList_1.length; _i++) {
+                var item = selectList_1[_i];
+                var select = item;
+                if (select.selectedIndex > 0) {
+                    select.options[0].remove();
+                }
+            }
+            selectList.material_select();
+        }, 100);
+    };
+    MaterializedTreeMasterDetailRenderer = __decorate([
+        jsonforms_1.JsonFormsRenderer({
+            selector: 'jsonforms-material-tree',
+            tester: jsonforms_1.rankWith(2, jsonforms_1.uiTypeIs('MasterDetailLayout'))
+        })
+    ], MaterializedTreeMasterDetailRenderer);
+    return MaterializedTreeMasterDetailRenderer;
+}(jsonforms_1.TreeMasterDetailRenderer));
+
+
+/***/ }),
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26756,23 +27300,23 @@ module.exports = function (metaSchema, keywordsJsonPointers) {
 
 
 /***/ }),
-/* 60 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var compileSchema = __webpack_require__(65)
-  , resolve = __webpack_require__(17)
-  , Cache = __webpack_require__(61)
-  , SchemaObject = __webpack_require__(22)
-  , stableStringify = __webpack_require__(10)
-  , formats = __webpack_require__(64)
-  , rules = __webpack_require__(66)
-  , $dataMetaSchema = __webpack_require__(59)
-  , patternGroups = __webpack_require__(87)
-  , util = __webpack_require__(9)
-  , co = __webpack_require__(13);
+var compileSchema = __webpack_require__(72)
+  , resolve = __webpack_require__(18)
+  , Cache = __webpack_require__(68)
+  , SchemaObject = __webpack_require__(27)
+  , stableStringify = __webpack_require__(11)
+  , formats = __webpack_require__(71)
+  , rules = __webpack_require__(73)
+  , $dataMetaSchema = __webpack_require__(66)
+  , patternGroups = __webpack_require__(94)
+  , util = __webpack_require__(10)
+  , co = __webpack_require__(14);
 
 module.exports = Ajv;
 
@@ -26789,13 +27333,13 @@ Ajv.prototype.errorsText = errorsText;
 Ajv.prototype._addSchema = _addSchema;
 Ajv.prototype._compile = _compile;
 
-Ajv.prototype.compileAsync = __webpack_require__(63);
-var customKeyword = __webpack_require__(86);
+Ajv.prototype.compileAsync = __webpack_require__(70);
+var customKeyword = __webpack_require__(93);
 Ajv.prototype.addKeyword = customKeyword.add;
 Ajv.prototype.getKeyword = customKeyword.get;
 Ajv.prototype.removeKeyword = customKeyword.remove;
 
-var errorClasses = __webpack_require__(16);
+var errorClasses = __webpack_require__(17);
 Ajv.ValidationError = errorClasses.Validation;
 Ajv.MissingRefError = errorClasses.MissingRef;
 Ajv.$dataMetaSchema = $dataMetaSchema;
@@ -27198,11 +27742,11 @@ function addFormat(name, format) {
 function addDraft6MetaSchema(self) {
   var $dataSchema;
   if (self._opts.$data) {
-    $dataSchema = __webpack_require__(88);
+    $dataSchema = __webpack_require__(95);
     self.addMetaSchema($dataSchema, $dataSchema.$id, true);
   }
   if (self._opts.meta === false) return;
-  var metaSchema = __webpack_require__(89);
+  var metaSchema = __webpack_require__(96);
   if (self._opts.$data) metaSchema = $dataMetaSchema(metaSchema, META_SUPPORT_DATA);
   self.addMetaSchema(metaSchema, META_SCHEMA_ID, true);
   self._refs['http://json-schema.org/schema'] = META_SCHEMA_ID;
@@ -27240,7 +27784,7 @@ function getMetaSchemaOptions(self) {
 
 
 /***/ }),
-/* 61 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27273,7 +27817,7 @@ Cache.prototype.clear = function Cache_clear() {
 
 
 /***/ }),
-/* 62 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27281,43 +27825,43 @@ Cache.prototype.clear = function Cache_clear() {
 
 //all requires must be explicit because browserify won't work with dynamic requires
 module.exports = {
-  '$ref': __webpack_require__(83),
-  allOf: __webpack_require__(68),
-  anyOf: __webpack_require__(69),
-  const: __webpack_require__(70),
-  contains: __webpack_require__(71),
-  dependencies: __webpack_require__(73),
-  'enum': __webpack_require__(74),
-  format: __webpack_require__(75),
-  items: __webpack_require__(76),
-  maximum: __webpack_require__(23),
-  minimum: __webpack_require__(23),
-  maxItems: __webpack_require__(24),
-  minItems: __webpack_require__(24),
-  maxLength: __webpack_require__(25),
-  minLength: __webpack_require__(25),
-  maxProperties: __webpack_require__(26),
-  minProperties: __webpack_require__(26),
-  multipleOf: __webpack_require__(77),
-  not: __webpack_require__(78),
-  oneOf: __webpack_require__(79),
-  pattern: __webpack_require__(80),
-  properties: __webpack_require__(81),
-  propertyNames: __webpack_require__(82),
-  required: __webpack_require__(84),
-  uniqueItems: __webpack_require__(85),
-  validate: __webpack_require__(27)
+  '$ref': __webpack_require__(90),
+  allOf: __webpack_require__(75),
+  anyOf: __webpack_require__(76),
+  const: __webpack_require__(77),
+  contains: __webpack_require__(78),
+  dependencies: __webpack_require__(80),
+  'enum': __webpack_require__(81),
+  format: __webpack_require__(82),
+  items: __webpack_require__(83),
+  maximum: __webpack_require__(28),
+  minimum: __webpack_require__(28),
+  maxItems: __webpack_require__(29),
+  minItems: __webpack_require__(29),
+  maxLength: __webpack_require__(30),
+  minLength: __webpack_require__(30),
+  maxProperties: __webpack_require__(31),
+  minProperties: __webpack_require__(31),
+  multipleOf: __webpack_require__(84),
+  not: __webpack_require__(85),
+  oneOf: __webpack_require__(86),
+  pattern: __webpack_require__(87),
+  properties: __webpack_require__(88),
+  propertyNames: __webpack_require__(89),
+  required: __webpack_require__(91),
+  uniqueItems: __webpack_require__(92),
+  validate: __webpack_require__(32)
 };
 
 
 /***/ }),
-/* 63 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var MissingRefError = __webpack_require__(16).MissingRef;
+var MissingRefError = __webpack_require__(17).MissingRef;
 
 module.exports = compileAsync;
 
@@ -27408,13 +27952,13 @@ function compileAsync(schema, meta, callback) {
 
 
 /***/ }),
-/* 64 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var util = __webpack_require__(9);
+var util = __webpack_require__(10);
 
 var DATE = /^\d\d\d\d-(\d\d)-(\d\d)$/;
 var DAYS = [0,31,29,31,30,31,30,31,31,30,31,30,31];
@@ -27550,26 +28094,26 @@ function regex(str) {
 
 
 /***/ }),
-/* 65 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var resolve = __webpack_require__(17)
-  , util = __webpack_require__(9)
-  , errorClasses = __webpack_require__(16)
-  , stableStringify = __webpack_require__(10);
+var resolve = __webpack_require__(18)
+  , util = __webpack_require__(10)
+  , errorClasses = __webpack_require__(17)
+  , stableStringify = __webpack_require__(11);
 
-var validateGenerator = __webpack_require__(27);
+var validateGenerator = __webpack_require__(32);
 
 /**
  * Functions below are used inside compiled validations function
  */
 
-var co = __webpack_require__(13);
+var co = __webpack_require__(14);
 var ucs2length = util.ucs2length;
-var equal = __webpack_require__(18);
+var equal = __webpack_require__(19);
 
 // this error is thrown by async schemas to return validation errors via exception
 var ValidationError = errorClasses.Validation;
@@ -27936,14 +28480,14 @@ function vars(arr, statement) {
 
 
 /***/ }),
-/* 66 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var ruleModules = __webpack_require__(62)
-  , toHash = __webpack_require__(9).toHash;
+var ruleModules = __webpack_require__(69)
+  , toHash = __webpack_require__(10).toHash;
 
 module.exports = function rules() {
   var RULES = [
@@ -28001,7 +28545,7 @@ module.exports = function rules() {
 
 
 /***/ }),
-/* 67 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28028,7 +28572,7 @@ module.exports = function ucs2length(str) {
 
 
 /***/ }),
-/* 68 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28078,7 +28622,7 @@ module.exports = function generate_allOf(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 69 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28158,7 +28702,7 @@ module.exports = function generate_anyOf(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 70 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28220,7 +28764,7 @@ module.exports = function generate_const(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 71 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28308,7 +28852,7 @@ module.exports = function generate_contains(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 72 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28541,7 +29085,7 @@ module.exports = function generate_custom(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 73 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28715,7 +29259,7 @@ module.exports = function generate_dependencies(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 74 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28787,7 +29331,7 @@ module.exports = function generate_enum(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 75 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28943,7 +29487,7 @@ module.exports = function generate_format(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 76 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29090,7 +29634,7 @@ module.exports = function generate_items(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 77 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29173,7 +29717,7 @@ module.exports = function generate_multipleOf(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 78 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29263,7 +29807,7 @@ module.exports = function generate_not(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 79 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29340,7 +29884,7 @@ module.exports = function generate_oneOf(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 80 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29421,7 +29965,7 @@ module.exports = function generate_pattern(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 81 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29896,7 +30440,7 @@ module.exports = function generate_properties(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 82 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29984,7 +30528,7 @@ module.exports = function generate_propertyNames(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 83 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30114,7 +30658,7 @@ module.exports = function generate_ref(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 84 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30389,7 +30933,7 @@ module.exports = function generate_required(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 85 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30467,14 +31011,14 @@ module.exports = function generate_uniqueItems(it, $keyword, $ruleType) {
 
 
 /***/ }),
-/* 86 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var IDENTIFIER = /^[a-z_$][a-z0-9_$-]*$/i;
-var customRuleCode = __webpack_require__(72);
+var customRuleCode = __webpack_require__(79);
 
 module.exports = {
   add: addKeyword,
@@ -30604,7 +31148,7 @@ function removeKeyword(keyword) {
 
 
 /***/ }),
-/* 87 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30647,220 +31191,1074 @@ module.exports = function (ajv) {
 
 
 /***/ }),
-/* 88 */
+/* 95 */
 /***/ (function(module, exports) {
 
 module.exports = {"$schema":"http://json-schema.org/draft-06/schema#","$id":"https://raw.githubusercontent.com/epoberezkin/ajv/master/lib/refs/$data.json#","description":"Meta-schema for $data reference (JSON-schema extension proposal)","type":"object","required":["$data"],"properties":{"$data":{"type":"string","anyOf":[{"format":"relative-json-pointer"},{"format":"json-pointer"}]}},"additionalProperties":false}
 
 /***/ }),
-/* 89 */
+/* 96 */
 /***/ (function(module, exports) {
 
 module.exports = {"$schema":"http://json-schema.org/draft-06/schema#","$id":"http://json-schema.org/draft-06/schema#","title":"Core schema meta-schema","definitions":{"schemaArray":{"type":"array","minItems":1,"items":{"$ref":"#"}},"nonNegativeInteger":{"type":"integer","minimum":0},"nonNegativeIntegerDefault0":{"allOf":[{"$ref":"#/definitions/nonNegativeInteger"},{"default":0}]},"simpleTypes":{"enum":["array","boolean","integer","null","number","object","string"]},"stringArray":{"type":"array","items":{"type":"string"},"uniqueItems":true,"default":[]}},"type":["object","boolean"],"properties":{"$id":{"type":"string","format":"uri-reference"},"$schema":{"type":"string","format":"uri"},"$ref":{"type":"string","format":"uri-reference"},"title":{"type":"string"},"description":{"type":"string"},"default":{},"multipleOf":{"type":"number","exclusiveMinimum":0},"maximum":{"type":"number"},"exclusiveMaximum":{"type":"number"},"minimum":{"type":"number"},"exclusiveMinimum":{"type":"number"},"maxLength":{"$ref":"#/definitions/nonNegativeInteger"},"minLength":{"$ref":"#/definitions/nonNegativeIntegerDefault0"},"pattern":{"type":"string","format":"regex"},"additionalItems":{"$ref":"#"},"items":{"anyOf":[{"$ref":"#"},{"$ref":"#/definitions/schemaArray"}],"default":{}},"maxItems":{"$ref":"#/definitions/nonNegativeInteger"},"minItems":{"$ref":"#/definitions/nonNegativeIntegerDefault0"},"uniqueItems":{"type":"boolean","default":false},"contains":{"$ref":"#"},"maxProperties":{"$ref":"#/definitions/nonNegativeInteger"},"minProperties":{"$ref":"#/definitions/nonNegativeIntegerDefault0"},"required":{"$ref":"#/definitions/stringArray"},"additionalProperties":{"$ref":"#"},"definitions":{"type":"object","additionalProperties":{"$ref":"#"},"default":{}},"properties":{"type":"object","additionalProperties":{"$ref":"#"},"default":{}},"patternProperties":{"type":"object","additionalProperties":{"$ref":"#"},"default":{}},"dependencies":{"type":"object","additionalProperties":{"anyOf":[{"$ref":"#"},{"$ref":"#/definitions/stringArray"}]}},"propertyNames":{"$ref":"#"},"const":{},"enum":{"type":"array","minItems":1,"uniqueItems":true},"type":{"anyOf":[{"$ref":"#/definitions/simpleTypes"},{"type":"array","items":{"$ref":"#/definitions/simpleTypes"},"minItems":1,"uniqueItems":true}]},"format":{"type":"string"},"allOf":{"$ref":"#/definitions/schemaArray"},"anyOf":{"$ref":"#/definitions/schemaArray"},"oneOf":{"$ref":"#/definitions/schemaArray"},"not":{"$ref":"#"}},"default":{}}
 
 /***/ }),
-/* 90 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
 Object.defineProperty(exports, "__esModule", { value: true });
-var jsonforms_1 = __webpack_require__(58);
-var _ = __webpack_require__(0);
-__export(__webpack_require__(57));
-/**
- * The JsonEditor renders JSON data specified by a JSON Schema.
- * It displays the data's containment hierarchy in a tree and allows to
- * edit the data objects' properties.
- * Thereby, the visual representation of the editor can be customized by providing
- * mappings that map types defined in the schema to images, define the types'
- * naming property, and defining a mapping between an object's property and its type.
- */
-var JsonEditor = /** @class */ (function (_super) {
-    __extends(JsonEditor, _super);
-    function JsonEditor() {
-        var _this = _super.call(this) || this;
-        _this.connected = false;
-        _this.masterDetail = {
-            'type': 'MasterDetailLayout',
-            'scope': {
-                '$ref': '#'
-            },
-            'options': {}
-        };
-        return _this;
+var schema_1 = __webpack_require__(99);
+var uischema_1 = __webpack_require__(100);
+exports.labelProvider = {
+    '#annotation': 'source',
+    '#datatype': 'name',
+    '#enum': 'name',
+    '#enumliteral': 'name',
+    '#package': 'name',
+    '#parameter': 'name',
+    '#reference': 'name',
+    '#typeparameter': 'name',
+    '#class': 'name',
+    '#attribute': 'name',
+    '#operation': 'name',
+    '#eliteral': 'name'
+};
+exports.imageProvider = {
+    '#datatype': 'datatype',
+    '#enum': 'enum',
+    '#eliteral': 'enumliteral',
+    '#package': 'package',
+    '#parameter': 'parameter',
+    '#reference': 'reference',
+    '#typeparameter': 'typeparameter',
+    '#class': 'class',
+    '#attribute': 'attribute',
+    '#operation': 'operation',
+    '#annotation': 'annotation'
+};
+exports.modelMapping = {
+    'attribute': 'eClass',
+    'mapping': {
+        'http://www.eclipse.org/emf/2002/Ecore#//EEnum': '#enum',
+        'http://www.eclipse.org/emf/2002/Ecore#//EClass': '#class',
+        'http://www.eclipse.org/emf/2002/Ecore#//EDataType': '#datatype',
+        'http://www.eclipse.org/emf/2002/Ecore#//EReference': '#reference',
+        'http://www.eclipse.org/emf/2002/Ecore#//EAttribute': '#attribute'
     }
-    JsonEditor.prototype.connectedCallback = function () {
-        this.connected = true;
-        this.render();
-    };
-    JsonEditor.prototype.diconnectedCallback = function () {
-        this.connected = false;
-    };
-    Object.defineProperty(JsonEditor.prototype, "data", {
-        /**
-         * Returns the current data displayed in the editor.
-         */
-        get: function () {
-            return this.dataObject;
-        },
-        /**
-         * Sets the data edited in the editor
-         */
-        set: function (data) {
-            this.dataObject = data;
-            jsonforms_1.JsonForms.rootData = data;
-            this.render();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(JsonEditor.prototype, "schema", {
-        /**
-         * Get the JsonSchema defining the editor's data.
-         */
-        get: function () {
-            return this.dataSchema;
-        },
-        /**
-         * Set the JsonSchema defining the editor's data.
-         */
-        set: function (schema) {
-            this.dataSchema = schema;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Allows to configure the editor with a single EditorConfiguration object.
-     */
-    JsonEditor.prototype.configure = function (config) {
-        var _this = this;
-        if (!_.isEmpty(config.imageMapping)) {
-            this.setImageMapping(config.imageMapping);
-        }
-        if (!_.isEmpty(config.labelMapping)) {
-            this.setLabelMapping(config.labelMapping);
-        }
-        if (!_.isEmpty(config.modelMapping)) {
-            this.setModelMapping(config.modelMapping);
-        }
-        // register all UI Schemata
-        if (!_.isEmpty(config.detailSchemata)) {
-            Object.keys(config.detailSchemata).forEach(function (key) {
-                try {
-                    var uiSchema = config.detailSchemata[key];
-                    _this.registerDetailSchema(key, uiSchema);
-                }
-                catch (e) {
-                    console.warn("Data registered for id '" + key + "' is not a valid UI Schema:", config.detailSchemata[key]);
-                }
-            });
-        }
-        if (!_.isEmpty(config.resources)) {
-            Object.keys(config.resources).forEach(function (name) {
-                _this.registerResource(name, config.resources[name]);
-            });
-        }
-        this.dataSchema = config.dataSchema;
-        if (!_.isEmpty(config.data)) {
-            this.data = config.data;
-        }
-        else {
-            this.data = {};
-        }
-    };
-    /**
-     * Configures the label mappings for the types defined in the editor's schema.
-     * A label mapping maps from a schema id to a property defined in this schema.
-     * This property defines the name of a rendered object in the containment tree.
-     */
-    JsonEditor.prototype.setLabelMapping = function (labelMapping) {
-        this.masterDetail.options.labelProvider = labelMapping;
-    };
-    /**
-     * Configures the image mappings for the types defined in the editor's schema.
-     * An image mapping maps from a schema id to the schema's image name.
-     * This name is used to resolve the css style that configure a label
-     * for instances of the type in the containment tree.
-     */
-    JsonEditor.prototype.setImageMapping = function (imageMapping) {
-        this.masterDetail.options.imageProvider = imageMapping;
-    };
-    /**
-     * The model mapping defines mappings from a property value to a type.
-     * Thereby, the model mapping defines which property is considered.
-     * This property is the same for all types.
-     * A mapping maps from a specific value of this property to a schema id.
-     * If an element contains a mapped value in the defined property,
-     * it is assumed to be of the type defined by the mapped schema id.
-     *
-     * A model mapping is necessary for all types used in anyOf sections of a schema
-     * in order to determine which type objects of a "anyOf-property" belong to.
-     */
-    JsonEditor.prototype.setModelMapping = function (modelMapping) {
-        jsonforms_1.JsonForms.modelMapping = modelMapping;
-        this.masterDetail.options.modelMapping = modelMapping;
-    };
-    /**
-     * Register a resource for the given name.
-     * The resource can be used as reference target or to specify a reference target schema.
-     */
-    JsonEditor.prototype.registerResource = function (name, resource) {
-        // Register resource and resolve JSON References/Pointers
-        jsonforms_1.JsonForms.resources.registerResource(name, resource, true);
-    };
-    /**
-     * Registers a UI Schema for objects defined by the schema specified by the given schema id.
-     * A registered UI Schema is used when rendering a suitable object
-     * that was selected in the containment tree.
-     * The UI Schema specifies rendered controls, layouts, and additional rendering information.
-     * Thereby, the UI Schema is the same as the UI Schemata used in JsonForms 2.
-     *
-     * @param {string} schemaId The id of the type's JsonSchema that the UI Schema is registered for
-     * @param {UISchemaElement} uiSchema The UI Schema to use when rendering instances of the schema
-     */
-    JsonEditor.prototype.registerDetailSchema = function (schemaId, uiSchema) {
-        jsonforms_1.JsonForms.uischemaRegistry.register(uiSchema, function (schema, data) {
-            return schema.id !== undefined && schema.id === schemaId ? 2 : -1;
-        });
-    };
-    JsonEditor.prototype.render = function () {
-        if (!this.connected || this.dataObject === undefined || this.dataObject === null
-            || _.isEmpty(this.dataSchema)) {
-            return;
-        }
-        if (this.jsonforms === undefined) {
-            this.jsonforms = document.createElement('json-forms');
-        }
-        this.jsonforms.uiSchema = this.masterDetail;
-        this.jsonforms.dataSchema = this.dataSchema;
-        this.jsonforms.data = this.dataObject;
-        this.appendChild(this.jsonforms);
-    };
-    return JsonEditor;
-}(HTMLElement));
-exports.JsonEditor = JsonEditor;
-if (!customElements.get('json-editor')) {
-    customElements.define('json-editor', JsonEditor);
-}
+};
+exports.editorConfig = {
+    dataSchema: schema_1.ecoreSchema,
+    imageMapping: exports.imageProvider,
+    labelMapping: exports.labelProvider,
+    modelMapping: exports.modelMapping,
+    detailSchemata: {
+        '#annotation': uischema_1.annotationView,
+        '#attribute': uischema_1.attributeView,
+        '#class': uischema_1.eClassView,
+        '#datatype': uischema_1.datatypeView,
+        '#enum': uischema_1.enumView,
+        '#operation': uischema_1.eOperationView,
+        '#package': uischema_1.ePackageView,
+        '#reference': uischema_1.eReferenceView,
+    }
+};
 
 
 /***/ }),
-/* 91 */
+/* 98 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+/* tslint:disable:no-invalid-this */
+__webpack_require__(24);
+__webpack_require__(23);
+__webpack_require__(65);
+__webpack_require__(25);
+__webpack_require__(63);
+var toolbar_1 = __webpack_require__(26);
+var material_styling_1 = __webpack_require__(64);
+window.onload = function () {
+    var editor = document.createElement('ecore-editor');
+    var exportDialog = toolbar_1.createExportDataDialog();
+    document.body.appendChild(exportDialog);
+    var exportButton = document.getElementById('export-data-button');
+    toolbar_1.configureExportButton(editor, exportButton, exportDialog);
+    // button triggering the hidden input element - only activate after schemas was loaded
+    var uploadButton = document.getElementById('upload-data-button');
+    toolbar_1.configureUploadButton(editor, uploadButton);
+    // configure button to download model data.
+    var downloadButton = document.getElementById('download-data-button');
+    toolbar_1.configureDownloadButton(editor, downloadButton);
+    document.getElementById('editor').appendChild(editor);
+    material_styling_1.applyMaterialStyle();
+};
+
+
+/***/ }),
+/* 99 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+/* tslint:disable:max-file-line-count */
+exports.ecoreSchema = {
+    'definitions': {
+        'eLiterals': {
+            'id': '#eliteral',
+            'type': 'object',
+            'properties': {
+                'literal': {
+                    'type': 'string'
+                },
+                'name': {
+                    'type': 'string'
+                },
+                'value': {
+                    'type': 'integer',
+                    'default': 0
+                }
+            },
+            'required': ['name']
+        },
+        'eClassifier': {
+            'anyOf': [
+                { '$ref': '#/definitions/enum' },
+                { '$ref': '#/definitions/datatype' }
+            ]
+        },
+        'type': {
+            'type': 'object',
+            'properties': {
+                'id': {
+                    'type': 'integer',
+                    'minimum': 0
+                }
+            },
+            'links': [{
+                    'rel': 'full',
+                    'href': '#/eClassifiers/{id}',
+                    'targetSchema': {
+                        '$ref': '#/definitions/eClassifier'
+                    }
+                }],
+            'additionalProperties': false
+        },
+        'annotation': {
+            'id': '#annotation',
+            'type': 'object',
+            'properties': {
+                'eClass': {
+                    'type': 'string',
+                    'default': 'http://www.eclipse.org/emf/2002/Ecore#//EAnnotation'
+                },
+                '_id': {
+                    'type': 'string'
+                },
+                'source': {
+                    'type': 'string'
+                },
+                'details': {
+                    'type': 'object'
+                }
+            },
+            'additionalProperties': false
+        },
+        'enum': {
+            'id': '#enum',
+            'type': 'object',
+            'properties': {
+                'eClass': {
+                    'type': 'string',
+                    'default': 'http://www.eclipse.org/emf/2002/Ecore#//EEnum'
+                },
+                '_id': {
+                    'type': 'string'
+                },
+                'name': {
+                    'type': 'string'
+                },
+                'instanceClassName': {
+                    'type': 'string'
+                },
+                'instanceTypeName': {
+                    'type': 'string'
+                },
+                'serializable': {
+                    'type': 'boolean'
+                },
+                'eLiterals': {
+                    'type': 'array',
+                    'items': {
+                        '$ref': '#/definitions/eLiterals'
+                    }
+                },
+                'eAnnotations': {
+                    'type': 'array',
+                    'items': {
+                        '$ref': '#/definitions/annotation'
+                    }
+                }
+            },
+            'required': ['name'],
+            'additionalProperties': false
+        },
+        'datatype': {
+            'id': '#datatype',
+            'type': 'object',
+            'properties': {
+                'eClass': {
+                    'type': 'string',
+                    'default': 'http://www.eclipse.org/emf/2002/Ecore#//EDataType'
+                },
+                '_id': {
+                    'type': 'string'
+                },
+                'name': {
+                    'type': 'string'
+                },
+                'instanceClassName': {
+                    'type': 'string'
+                },
+                'instanceTypeName': {
+                    'type': 'string'
+                },
+                'serializable': {
+                    'type': 'boolean'
+                },
+                'eAnnotations': {
+                    'type': 'array',
+                    'items': {
+                        '$ref': '#/definitions/annotation'
+                    }
+                }
+            },
+            'required': ['name'],
+            'additionalProperties': false
+        },
+        'eclass': {
+            'type': 'object',
+            'id': '#class',
+            'properties': {
+                'eClass': {
+                    'type': 'string',
+                    'default': 'http://www.eclipse.org/emf/2002/Ecore#//EClass'
+                },
+                '_id': {
+                    'type': 'string'
+                },
+                'name': {
+                    'type': 'string'
+                },
+                'secondName': {
+                    'type': 'string'
+                },
+                'instanceClassName': {
+                    'type': 'string'
+                },
+                'instanceTypeName': {
+                    'type': 'string'
+                },
+                'abstract': {
+                    'type': 'boolean'
+                },
+                'interface': {
+                    'type': 'boolean'
+                },
+                'eSuperTypes': {
+                    'type': 'array',
+                    'items': { 'type': 'string' }
+                },
+                'eStructuralFeatures': {
+                    'type': 'array',
+                    'items': {
+                        'anyOf': [
+                            { '$ref': '#/definitions/attribute' },
+                            { '$ref': '#/definitions/reference' }
+                        ]
+                    }
+                },
+                'eOperations': {
+                    'type': 'array',
+                    'items': {
+                        '$ref': '#/definitions/operation'
+                    }
+                },
+                'eAnnotations': {
+                    'type': 'array',
+                    'items': {
+                        '$ref': '#/definitions/annotation'
+                    }
+                }
+            },
+            'required': ['name'],
+            'additionalProperties': false
+        },
+        'attribute': {
+            'id': '#attribute',
+            'type': 'object',
+            'properties': {
+                'eClass': {
+                    'type': 'string',
+                    'default': 'http://www.eclipse.org/emf/2002/Ecore#//EAttribute'
+                },
+                '_id': {
+                    'type': 'string'
+                },
+                'name': {
+                    'type': 'string'
+                },
+                'ordered': {
+                    'type': 'boolean'
+                },
+                'unique': {
+                    'type': 'boolean'
+                },
+                'lowerBound': {
+                    'type': 'integer'
+                },
+                'upperBound': {
+                    'type': 'integer'
+                },
+                'many': {
+                    'type': 'boolean'
+                },
+                'required': {
+                    'type': 'boolean'
+                },
+                'changeable': {
+                    'type': 'boolean'
+                },
+                'volatile': {
+                    'type': 'boolean'
+                },
+                'transient': {
+                    'type': 'boolean'
+                },
+                'defaultValueLiteral': {
+                    'type': 'string'
+                },
+                'unsettable': {
+                    'type': 'boolean'
+                },
+                'derived': {
+                    'type': 'boolean'
+                },
+                'containment': {
+                    'type': 'boolean'
+                },
+                'resolveProxies': {
+                    'type': 'boolean'
+                },
+                'eType': {
+                    'type': 'string'
+                }
+            },
+            'links': [{
+                    'rel': 'full',
+                    'href': '#/eClassifiers/{eType}',
+                    'targetSchema': {
+                        '$ref': '#/definitions/datatype'
+                    }
+                }],
+            'required': ['name', 'eType'],
+            'additionalProperties': false
+        },
+        'reference': {
+            'id': '#reference',
+            'type': 'object',
+            'properties': {
+                'eClass': {
+                    'type': 'string',
+                    'default': 'http://www.eclipse.org/emf/2002/Ecore#//EReference'
+                },
+                '_id': {
+                    'type': 'string'
+                },
+                'name': {
+                    'type': 'string'
+                },
+                'ordered': {
+                    'type': 'boolean'
+                },
+                'unique': {
+                    'type': 'boolean'
+                },
+                'lowerBound': {
+                    'type': 'integer'
+                },
+                'upperBound': {
+                    'type': 'integer'
+                },
+                'many': {
+                    'type': 'boolean'
+                },
+                'required': {
+                    'type': 'boolean'
+                },
+                'changeable': {
+                    'type': 'boolean'
+                },
+                'volatile': {
+                    'type': 'boolean'
+                },
+                'transient': {
+                    'type': 'boolean'
+                },
+                'defaultValueLiteral': {
+                    'type': 'string'
+                },
+                'unsettable': {
+                    'type': 'boolean'
+                },
+                'derived': {
+                    'type': 'boolean'
+                },
+                'containment': {
+                    'type': 'boolean'
+                },
+                'resolveProxies': {
+                    'type': 'boolean'
+                },
+                'eOpposite': {
+                    'type': 'object',
+                    'properties': {
+                        '$ref': {
+                            'type': 'string'
+                        }
+                    },
+                    'additionalProperties': false
+                },
+                'eType': {
+                    'type': 'string'
+                }
+            },
+            'links': [{
+                    'rel': 'full',
+                    'href': '#/eClassifiers/{eType}',
+                    'targetSchema': {
+                        '$ref': '#/definitions/eclass'
+                    }
+                }],
+            'required': ['name', 'eType'],
+            'additionalProperties': false
+        },
+        'operation': {
+            'id': '#operation',
+            'type': 'object',
+            'properties': {
+                'eClass': {
+                    'type': 'string',
+                    'default': 'http://www.eclipse.org/emf/2002/Ecore#//EOperation'
+                },
+                '_id': {
+                    'type': 'string'
+                },
+                'name': {
+                    'type': 'string'
+                },
+                'ordered': {
+                    'type': 'boolean'
+                },
+                'unique': {
+                    'type': 'boolean'
+                },
+                'lowerBound': {
+                    'type': 'integer'
+                },
+                'upperBound': {
+                    'type': 'integer'
+                },
+                'many': {
+                    'type': 'boolean'
+                },
+                'required': {
+                    'type': 'boolean'
+                },
+                'eType': {
+                    'type': 'string'
+                },
+                'eTypeParameters': {
+                    'type': 'array',
+                    'items': {
+                        'id': '#typeparameter',
+                        'type': 'object',
+                        'properties': {
+                            'eClass': {
+                                'type': 'string'
+                            },
+                            '_id': {
+                                'type': 'string'
+                            },
+                            'name': {
+                                'type': 'string'
+                            }
+                        },
+                        'additionalProperties': false
+                    }
+                },
+                'eParameters': {
+                    'type': 'array',
+                    'items': {
+                        'id': '#parameter',
+                        'type': 'object',
+                        'properties': {
+                            'eClass': {
+                                'type': 'string'
+                            },
+                            '_id': {
+                                'type': 'string'
+                            },
+                            'name': {
+                                'type': 'string'
+                            },
+                            'ordered': {
+                                'type': 'boolean'
+                            },
+                            'unique': {
+                                'type': 'boolean'
+                            },
+                            'lowerBound': {
+                                'type': 'integer'
+                            },
+                            'upperBound': {
+                                'type': 'integer'
+                            },
+                            'many': {
+                                'type': 'boolean'
+                            },
+                            'required': {
+                                'type': 'boolean'
+                            },
+                            'eType': {
+                                'type': 'string'
+                            },
+                            'eGenericType': {
+                                'type': 'object',
+                                'properties': {
+                                    'eClass': {
+                                        'type': 'string'
+                                    },
+                                    '_id': {
+                                        'type': 'string'
+                                    },
+                                    'eClassifier': {
+                                        'type': 'object',
+                                        'properties': {
+                                            'eClass': {
+                                                'type': 'string'
+                                            },
+                                            '$ref': {
+                                                'type': 'string'
+                                            }
+                                        },
+                                        'additionalProperties': false
+                                    },
+                                    'eTypeArguments': {
+                                        'type': 'array',
+                                        'items': {
+                                            'type': 'object',
+                                            'properties': {
+                                                'eClass': {
+                                                    'type': 'string'
+                                                },
+                                                '_id': {
+                                                    'type': 'string'
+                                                }
+                                            },
+                                            'additionalProperties': false
+                                        }
+                                    }
+                                },
+                                'additionalProperties': false
+                            }
+                        },
+                        'additionalProperties': false
+                    }
+                }
+            },
+            'links': [{
+                    'rel': 'full',
+                    'href': '#/eClassifiers/{eType}',
+                    'targetSchema': {
+                        '$ref': '#/definitions/eclass'
+                    }
+                }],
+            'required': ['name'],
+            'additionalProperties': false
+        }
+    },
+    'type': 'object',
+    'id': '#package',
+    'properties': {
+        'eClass': {
+            'type': 'string',
+            'default': 'http://www.eclipse.org/emf/2002/Ecore#//EPackage'
+        },
+        '_id': {
+            'type': 'string'
+        },
+        'name': {
+            'type': 'string'
+        },
+        'nsURI': {
+            'type': 'string'
+        },
+        'nsPrefix': {
+            'type': 'string'
+        },
+        'eClassifiers': {
+            'type': 'array',
+            'items': {
+                'anyOf': [
+                    { '$ref': '#/definitions/eclass' },
+                    { '$ref': '#/definitions/enum' },
+                    { '$ref': '#/definitions/datatype' }
+                ]
+            }
+        }
+    },
+    'required': ['name', 'nsURI', 'nsPrefix'],
+    'additionalProperties': false
+};
+
+
+/***/ }),
+/* 100 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.attributeView = {
+    'type': 'VerticalLayout',
+    'elements': [
+        {
+            'type': 'Group',
+            'label': 'Standard',
+            'elements': [
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/name'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'label': 'E Type',
+                    'scope': {
+                        '$ref': '#/properties/eType'
+                    },
+                    'options': {
+                        'id': 'eAttribute'
+                    }
+                },
+                {
+                    'type': 'HorizontalLayout',
+                    'elements': [
+                        {
+                            'type': 'Control',
+                            'label': 'Lower Bound',
+                            'scope': {
+                                '$ref': '#/properties/lowerBound'
+                            }
+                        },
+                        {
+                            'type': 'Control',
+                            'label': 'Upper Bound',
+                            'scope': {
+                                '$ref': '#/properties/upperBound'
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            'type': 'Group',
+            'label': 'Advanced',
+            'elements': [
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/unsettable'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/ordered'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/unique'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/changeable'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/volatile'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/transient'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/defaultValueLiteral'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/derived'
+                    }
+                }
+            ]
+        }
+    ]
+};
+exports.datatypeView = {
+    'type': 'VerticalLayout',
+    'elements': [
+        {
+            'type': 'Control',
+            'scope': {
+                '$ref': '#/properties/name'
+            }
+        },
+        {
+            'type': 'Control',
+            'scope': {
+                '$ref': '#/properties/serializable'
+            }
+        },
+        {
+            'type': 'Control',
+            'scope': {
+                '$ref': '#/properties/instanceClassName'
+            }
+        }
+    ]
+};
+exports.enumView = {
+    'type': 'VerticalLayout',
+    'elements': [
+        {
+            'type': 'Control',
+            'scope': {
+                '$ref': '#/properties/name'
+            }
+        }
+    ]
+};
+exports.ePackageView = {
+    'type': 'VerticalLayout',
+    'elements': [
+        {
+            'type': 'Control',
+            'scope': {
+                '$ref': '#/properties/name'
+            }
+        },
+        {
+            'type': 'Control',
+            'scope': {
+                '$ref': '#/properties/nsURI'
+            }
+        },
+        {
+            'type': 'Control',
+            'scope': {
+                '$ref': '#/properties/nsPrefix'
+            }
+        }
+    ]
+};
+exports.eReferenceView = {
+    'type': 'VerticalLayout',
+    'elements': [
+        {
+            'type': 'Group',
+            'label': 'Standard',
+            'elements': [
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/name'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/eType'
+                    },
+                    'options': {
+                        'id': 'eReference'
+                    }
+                },
+                {
+                    'type': 'HorizontalLayout',
+                    'elements': [
+                        {
+                            'type': 'Control',
+                            'scope': {
+                                '$ref': '#/properties/lowerBound'
+                            }
+                        },
+                        {
+                            'type': 'Control',
+                            'scope': {
+                                '$ref': '#/properties/upperBound'
+                            }
+                        }
+                    ]
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/containment'
+                    }
+                }
+            ]
+        },
+        {
+            'type': 'Group',
+            'label': 'Advanced',
+            'elements': [
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/changeable'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/unsettable'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/ordered'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/unique'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/eOpposite'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/container'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/defaultValueLiteral'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/derived'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/eKeys'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/resolveProxies'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/transient'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/volatile'
+                    }
+                }
+            ]
+        }
+    ]
+};
+exports.eClassView = {
+    'type': 'VerticalLayout',
+    'elements': [
+        {
+            'type': 'Group',
+            'label': 'Standard',
+            'elements': [
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/name'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/secondName'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/abstract'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/interface'
+                    }
+                }
+            ]
+        },
+        {
+            'type': 'Group',
+            'label': 'Advanced',
+            'elements': [
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/instanceTypeName'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/eSuperTypes'
+                    }
+                }
+            ]
+        }
+    ]
+};
+exports.eOperationView = {
+    'type': 'VerticalLayout',
+    'elements': [
+        {
+            'type': 'Group',
+            'label': 'Standard',
+            'elements': [
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/name'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/eType'
+                    },
+                    'options': {
+                        'id': 'eReference'
+                    }
+                },
+                {
+                    'type': 'HorizontalLayout',
+                    'elements': [
+                        {
+                            'type': 'Control',
+                            'scope': {
+                                '$ref': '#/properties/lowerBound'
+                            }
+                        },
+                        {
+                            'type': 'Control',
+                            'scope': {
+                                '$ref': '#/properties/upperBound'
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            'type': 'Group',
+            'label': 'Advanced',
+            'elements': [
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/ordered'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/required'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/unique'
+                    }
+                },
+                {
+                    'type': 'Control',
+                    'scope': {
+                        '$ref': '#/properties/many'
+                    }
+                }
+            ]
+        }
+    ]
+};
+exports.annotationView = {
+    'type': 'VerticalLayout',
+    'elements': [
+        {
+            'type': 'Control',
+            'scope': {
+                '$ref': '#/properties/source'
+            }
+        }
+    ]
+};
+
+
+/***/ }),
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -31029,7 +32427,7 @@ Emitter.prototype.hasListeners = function(event){
 
 
 /***/ }),
-/* 92 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31117,7 +32515,7 @@ function escapeJsonPtr(str) {
 
 
 /***/ }),
-/* 93 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31187,21 +32585,21 @@ exports.RendererService = RendererService;
 //# sourceMappingURL=renderer.service.js.map
 
 /***/ }),
-/* 94 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:max-file-line-count */
-var AJV = __webpack_require__(35);
+var AJV = __webpack_require__(41);
 var _ = __webpack_require__(0);
 var path_util_1 = __webpack_require__(4);
-var schema_service_1 = __webpack_require__(30);
-var uuid = __webpack_require__(173);
+var schema_service_1 = __webpack_require__(36);
+var uuid = __webpack_require__(183);
 var core_1 = __webpack_require__(1);
 var path_util_2 = __webpack_require__(4);
-var resource_set_1 = __webpack_require__(29);
+var resource_set_1 = __webpack_require__(35);
 // TODO configure ajv for json schema 04
 var ajv = new AJV({ jsonPointers: true });
 var isObject = function (schema) {
@@ -31651,7 +33049,7 @@ exports.SchemaServiceImpl = SchemaServiceImpl;
 //# sourceMappingURL=schema.service.impl.js.map
 
 /***/ }),
-/* 95 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31785,7 +33183,7 @@ exports.generateJsonSchema = function (instance, options) {
 //# sourceMappingURL=schema-gen.js.map
 
 /***/ }),
-/* 96 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31911,7 +33309,7 @@ exports.generateDefaultUISchema = function (jsonSchema, layoutType) {
 //# sourceMappingURL=ui-schema-gen.js.map
 
 /***/ }),
-/* 97 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31936,11 +33334,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var JsonRefs = __webpack_require__(28);
+var JsonRefs = __webpack_require__(34);
 var _ = __webpack_require__(0);
 var core_1 = __webpack_require__(1);
-var schema_gen_1 = __webpack_require__(95);
-var data_service_1 = __webpack_require__(14);
+var schema_gen_1 = __webpack_require__(105);
+var data_service_1 = __webpack_require__(15);
 /**
  * Annotation that registered the given config and class as a custom element
  * @param {CustomElementConfig} config the configuration object for the custom element
@@ -32112,7 +33510,7 @@ exports.JsonFormsElement = JsonFormsElement;
 //# sourceMappingURL=json-forms.js.map
 
 /***/ }),
-/* 98 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32142,7 +33540,7 @@ var core_1 = __webpack_require__(1);
 var renderer_1 = __webpack_require__(5);
 var testers_1 = __webpack_require__(2);
 var path_util_1 = __webpack_require__(4);
-var label_util_1 = __webpack_require__(15);
+var label_util_1 = __webpack_require__(16);
 var renderer_util_1 = __webpack_require__(3);
 /**
  * Default tester for an array control.
@@ -32265,7 +33663,7 @@ exports.ArrayControlRenderer = ArrayControlRenderer;
 //# sourceMappingURL=array-renderer.js.map
 
 /***/ }),
-/* 99 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32447,7 +33845,7 @@ exports.CategorizationRenderer = CategorizationRenderer;
 //# sourceMappingURL=categorization-renderer.js.map
 
 /***/ }),
-/* 100 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32541,7 +33939,7 @@ exports.LabelRenderer = LabelRenderer;
 //# sourceMappingURL=label.renderer.js.map
 
 /***/ }),
-/* 101 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32570,7 +33968,7 @@ var _ = __webpack_require__(0);
 var renderer_1 = __webpack_require__(5);
 var testers_1 = __webpack_require__(2);
 var path_util_1 = __webpack_require__(4);
-var label_util_1 = __webpack_require__(15);
+var label_util_1 = __webpack_require__(16);
 var renderer_util_1 = __webpack_require__(3);
 var core_1 = __webpack_require__(1);
 /**
@@ -32719,14 +34117,14 @@ exports.TableArrayControlRenderer = TableArrayControlRenderer;
 //# sourceMappingURL=table-array.control.js.map
 
 /***/ }),
-/* 102 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
-var Sortable = __webpack_require__(159);
+var Sortable = __webpack_require__(169);
 var _ = __webpack_require__(0);
 exports.DROP_TARGET_CSS = 'jsf-dnd-drop-target';
 exports.CANCEL_DND_ATTRIBUTE = 'jsf-cancel-dnd';
@@ -32911,7 +34309,7 @@ exports.registerDragAndDrop = function (treeElement, treeNodeMapping, list) {
 //# sourceMappingURL=tree-renderer.dnd.js.map
 
 /***/ }),
-/* 103 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32944,7 +34342,7 @@ var path_util_1 = __webpack_require__(4);
 var testers_1 = __webpack_require__(2);
 var runtime_1 = __webpack_require__(6);
 var core_1 = __webpack_require__(1);
-var tree_renderer_dnd_1 = __webpack_require__(102);
+var tree_renderer_dnd_1 = __webpack_require__(112);
 /**
  * Default tester for a master-detail layout.
  * @type {RankedTester}
@@ -33454,7 +34852,7 @@ exports.TreeMasterDetailRenderer = TreeMasterDetailRenderer;
 //# sourceMappingURL=tree-renderer.js.map
 
 /***/ }),
-/* 104 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33541,7 +34939,7 @@ exports.BooleanControl = BooleanControl;
 //# sourceMappingURL=boolean.control.js.map
 
 /***/ }),
-/* 105 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33638,7 +35036,7 @@ exports.DateControl = DateControl;
 //# sourceMappingURL=date.control.js.map
 
 /***/ }),
-/* 106 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33734,7 +35132,7 @@ exports.EnumControl = EnumControl;
 //# sourceMappingURL=enum.control.js.map
 
 /***/ }),
-/* 107 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33823,7 +35221,7 @@ exports.IntegerControl = IntegerControl;
 //# sourceMappingURL=integer.control.js.map
 
 /***/ }),
-/* 108 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33909,7 +35307,7 @@ exports.NumberControl = NumberControl;
 //# sourceMappingURL=number.control.js.map
 
 /***/ }),
-/* 109 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34022,7 +35420,7 @@ exports.ReferenceControl = ReferenceControl;
 //# sourceMappingURL=reference.control.js.map
 
 /***/ }),
-/* 110 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34110,7 +35508,7 @@ exports.TextControl = TextControl;
 //# sourceMappingURL=text.control.js.map
 
 /***/ }),
-/* 111 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34198,7 +35596,7 @@ exports.TextAreaControl = TextAreaControl;
 //# sourceMappingURL=textarea.control.js.map
 
 /***/ }),
-/* 112 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34227,7 +35625,7 @@ var core_1 = __webpack_require__(1);
 var renderer_1 = __webpack_require__(5);
 var testers_1 = __webpack_require__(2);
 var renderer_util_1 = __webpack_require__(3);
-var layout_util_1 = __webpack_require__(19);
+var layout_util_1 = __webpack_require__(20);
 /**
  * Default tester for a group layout.
  *
@@ -34292,7 +35690,7 @@ exports.GroupLayoutRenderer = GroupLayoutRenderer;
 //# sourceMappingURL=group.layout.js.map
 
 /***/ }),
-/* 113 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34321,7 +35719,7 @@ var core_1 = __webpack_require__(1);
 var renderer_1 = __webpack_require__(5);
 var testers_1 = __webpack_require__(2);
 var renderer_util_1 = __webpack_require__(3);
-var layout_util_1 = __webpack_require__(19);
+var layout_util_1 = __webpack_require__(20);
 /**
  * Default tester for a horizontal layout.
  * @type {RankedTester}
@@ -34385,7 +35783,7 @@ exports.HorizontalLayoutRenderer = HorizontalLayoutRenderer;
 //# sourceMappingURL=horizontal.layout.js.map
 
 /***/ }),
-/* 114 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34414,7 +35812,7 @@ var core_1 = __webpack_require__(1);
 var renderer_1 = __webpack_require__(5);
 var testers_1 = __webpack_require__(2);
 var renderer_util_1 = __webpack_require__(3);
-var layout_util_1 = __webpack_require__(19);
+var layout_util_1 = __webpack_require__(20);
 /**
  * Default tester for a vertical layout.
  * @type {RankedTester}
@@ -34478,7 +35876,7 @@ exports.VerticalLayoutRenderer = VerticalLayoutRenderer;
 //# sourceMappingURL=vertical.layout.js.map
 
 /***/ }),
-/* 115 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34487,29 +35885,29 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(__webpack_require__(15));
+__export(__webpack_require__(16));
 __export(__webpack_require__(3));
 __export(__webpack_require__(7));
-__export(__webpack_require__(110));
-__export(__webpack_require__(104));
-__export(__webpack_require__(107));
+__export(__webpack_require__(120));
+__export(__webpack_require__(114));
+__export(__webpack_require__(117));
+__export(__webpack_require__(118));
+__export(__webpack_require__(115));
+__export(__webpack_require__(116));
+__export(__webpack_require__(119));
+__export(__webpack_require__(121));
+__export(__webpack_require__(124));
+__export(__webpack_require__(123));
+__export(__webpack_require__(122));
 __export(__webpack_require__(108));
-__export(__webpack_require__(105));
-__export(__webpack_require__(106));
+__export(__webpack_require__(113));
 __export(__webpack_require__(109));
 __export(__webpack_require__(111));
-__export(__webpack_require__(114));
-__export(__webpack_require__(113));
-__export(__webpack_require__(112));
-__export(__webpack_require__(98));
-__export(__webpack_require__(103));
-__export(__webpack_require__(99));
-__export(__webpack_require__(101));
-__export(__webpack_require__(100));
+__export(__webpack_require__(110));
 //# sourceMappingURL=renderers.js.map
 
 /***/ }),
-/* 116 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34525,9 +35923,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
-var data_service_1 = __webpack_require__(14);
+var data_service_1 = __webpack_require__(15);
 var runtime_1 = __webpack_require__(6);
-var uischema_1 = __webpack_require__(33);
+var uischema_1 = __webpack_require__(39);
 var path_util_1 = __webpack_require__(4);
 /**
  * Service that evaluates all rules upon a data change.
@@ -34636,7 +36034,7 @@ exports.JsonFormsRuleService = JsonFormsRuleService;
 //# sourceMappingURL=rule.service.js.map
 
 /***/ }),
-/* 117 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34645,12 +36043,12 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(__webpack_require__(118));
-__export(__webpack_require__(116));
+__export(__webpack_require__(128));
+__export(__webpack_require__(126));
 //# sourceMappingURL=services.js.map
 
 /***/ }),
-/* 118 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34666,10 +36064,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(1);
-var data_service_1 = __webpack_require__(14);
+var data_service_1 = __webpack_require__(15);
 var runtime_1 = __webpack_require__(6);
 var path_util_1 = __webpack_require__(4);
-var AJV = __webpack_require__(35);
+var AJV = __webpack_require__(41);
 var ajv = new AJV({ allErrors: true, jsonPointers: true, errorDataPath: 'property' });
 /**
  * Validator service based on ajv.
@@ -34766,7 +36164,7 @@ exports.JsonFormsValidator = JsonFormsValidator;
 //# sourceMappingURL=validation.service.js.map
 
 /***/ }),
-/* 119 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34799,7 +36197,7 @@ Cache.prototype.clear = function Cache_clear() {
 
 
 /***/ }),
-/* 120 */
+/* 130 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -34808,10 +36206,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 120;
+webpackEmptyContext.id = 130;
 
 /***/ }),
-/* 121 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34819,40 +36217,40 @@ webpackEmptyContext.id = 120;
 
 //all requires must be explicit because browserify won't work with dynamic requires
 module.exports = {
-  '$ref': __webpack_require__(141),
-  allOf: __webpack_require__(127),
-  anyOf: __webpack_require__(128),
-  dependencies: __webpack_require__(131),
-  'enum': __webpack_require__(132),
-  format: __webpack_require__(133),
-  items: __webpack_require__(134),
-  maximum: __webpack_require__(41),
-  minimum: __webpack_require__(41),
-  maxItems: __webpack_require__(42),
-  minItems: __webpack_require__(42),
-  maxLength: __webpack_require__(43),
-  minLength: __webpack_require__(43),
-  maxProperties: __webpack_require__(44),
-  minProperties: __webpack_require__(44),
-  multipleOf: __webpack_require__(135),
-  not: __webpack_require__(136),
-  oneOf: __webpack_require__(137),
-  pattern: __webpack_require__(138),
-  properties: __webpack_require__(140),
-  required: __webpack_require__(142),
-  uniqueItems: __webpack_require__(144),
-  validate: __webpack_require__(45)
+  '$ref': __webpack_require__(151),
+  allOf: __webpack_require__(137),
+  anyOf: __webpack_require__(138),
+  dependencies: __webpack_require__(141),
+  'enum': __webpack_require__(142),
+  format: __webpack_require__(143),
+  items: __webpack_require__(144),
+  maximum: __webpack_require__(47),
+  minimum: __webpack_require__(47),
+  maxItems: __webpack_require__(48),
+  minItems: __webpack_require__(48),
+  maxLength: __webpack_require__(49),
+  minLength: __webpack_require__(49),
+  maxProperties: __webpack_require__(50),
+  minProperties: __webpack_require__(50),
+  multipleOf: __webpack_require__(145),
+  not: __webpack_require__(146),
+  oneOf: __webpack_require__(147),
+  pattern: __webpack_require__(148),
+  properties: __webpack_require__(150),
+  required: __webpack_require__(152),
+  uniqueItems: __webpack_require__(154),
+  validate: __webpack_require__(51)
 };
 
 
 /***/ }),
-/* 122 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var util = __webpack_require__(8);
+var util = __webpack_require__(9);
 
 var DATE = /^\d\d\d\d-(\d\d)-(\d\d)$/;
 var DAYS = [0,31,29,31,30,31,30,31,31,30,31,30,31];
@@ -35017,16 +36415,16 @@ function compareDateTime(dt1, dt2) {
 
 
 /***/ }),
-/* 123 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var resolve = __webpack_require__(38)
-  , util = __webpack_require__(8)
-  , stableStringify = __webpack_require__(10)
-  , async = __webpack_require__(36);
+var resolve = __webpack_require__(44)
+  , util = __webpack_require__(9)
+  , stableStringify = __webpack_require__(11)
+  , async = __webpack_require__(42);
 
 var beautify;
 
@@ -35038,18 +36436,18 @@ function loadBeautify(){
   }
 }
 
-var validateGenerator = __webpack_require__(45);
+var validateGenerator = __webpack_require__(51);
 
 /**
  * Functions below are used inside compiled validations function
  */
 
-var co = __webpack_require__(13);
+var co = __webpack_require__(14);
 var ucs2length = util.ucs2length;
-var equal = __webpack_require__(37);
+var equal = __webpack_require__(43);
 
 // this error is thrown by async schemas to return validation errors via exception
-var ValidationError = __webpack_require__(40);
+var ValidationError = __webpack_require__(46);
 
 module.exports = compile;
 
@@ -35414,14 +36812,14 @@ function vars(arr, statement) {
 
 
 /***/ }),
-/* 124 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var ruleModules = __webpack_require__(121)
-  , toHash = __webpack_require__(8).toHash;
+var ruleModules = __webpack_require__(131)
+  , toHash = __webpack_require__(9).toHash;
 
 module.exports = function rules() {
   var RULES = [
@@ -35461,7 +36859,7 @@ module.exports = function rules() {
 
 
 /***/ }),
-/* 125 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35488,7 +36886,7 @@ module.exports = function ucs2length(str) {
 
 
 /***/ }),
-/* 126 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35671,7 +37069,7 @@ module.exports = function generate__formatLimit(it, $keyword) {
 
 
 /***/ }),
-/* 127 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35721,7 +37119,7 @@ module.exports = function generate_allOf(it, $keyword) {
 
 
 /***/ }),
-/* 128 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35793,7 +37191,7 @@ module.exports = function generate_anyOf(it, $keyword) {
 
 
 /***/ }),
-/* 129 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35852,7 +37250,7 @@ module.exports = function generate_constant(it, $keyword) {
 
 
 /***/ }),
-/* 130 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36079,7 +37477,7 @@ module.exports = function generate_custom(it, $keyword) {
 
 
 /***/ }),
-/* 131 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36233,7 +37631,7 @@ module.exports = function generate_dependencies(it, $keyword) {
 
 
 /***/ }),
-/* 132 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36305,7 +37703,7 @@ module.exports = function generate_enum(it, $keyword) {
 
 
 /***/ }),
-/* 133 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36450,7 +37848,7 @@ module.exports = function generate_format(it, $keyword) {
 
 
 /***/ }),
-/* 134 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36601,7 +37999,7 @@ module.exports = function generate_items(it, $keyword) {
 
 
 /***/ }),
-/* 135 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36684,7 +38082,7 @@ module.exports = function generate_multipleOf(it, $keyword) {
 
 
 /***/ }),
-/* 136 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36774,7 +38172,7 @@ module.exports = function generate_not(it, $keyword) {
 
 
 /***/ }),
-/* 137 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36857,7 +38255,7 @@ module.exports = function generate_oneOf(it, $keyword) {
 
 
 /***/ }),
-/* 138 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36938,7 +38336,7 @@ module.exports = function generate_pattern(it, $keyword) {
 
 
 /***/ }),
-/* 139 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36996,7 +38394,7 @@ module.exports = function generate_patternRequired(it, $keyword) {
 
 
 /***/ }),
-/* 140 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37448,7 +38846,7 @@ module.exports = function generate_properties(it, $keyword) {
 
 
 /***/ }),
-/* 141 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37574,7 +38972,7 @@ module.exports = function generate_ref(it, $keyword) {
 
 
 /***/ }),
-/* 142 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37830,7 +39228,7 @@ module.exports = function generate_required(it, $keyword) {
 
 
 /***/ }),
-/* 143 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37965,7 +39363,7 @@ module.exports = function generate_switch(it, $keyword) {
 
 
 /***/ }),
-/* 144 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38043,14 +39441,14 @@ module.exports = function generate_uniqueItems(it, $keyword) {
 
 
 /***/ }),
-/* 145 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var IDENTIFIER = /^[a-z_$][a-z0-9_$\-]*$/i;
-var customRuleCode = __webpack_require__(130);
+var customRuleCode = __webpack_require__(140);
 
 module.exports = {
   add: addKeyword,
@@ -38179,19 +39577,19 @@ function removeKeyword(keyword) {
 
 
 /***/ }),
-/* 146 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {"id":"http://json-schema.org/draft-04/schema#","$schema":"http://json-schema.org/draft-04/schema#","description":"Core schema meta-schema","definitions":{"schemaArray":{"type":"array","minItems":1,"items":{"$ref":"#"}},"positiveInteger":{"type":"integer","minimum":0},"positiveIntegerDefault0":{"allOf":[{"$ref":"#/definitions/positiveInteger"},{"default":0}]},"simpleTypes":{"enum":["array","boolean","integer","null","number","object","string"]},"stringArray":{"type":"array","items":{"type":"string"},"minItems":1,"uniqueItems":true}},"type":"object","properties":{"id":{"type":"string","format":"uri"},"$schema":{"type":"string","format":"uri"},"title":{"type":"string"},"description":{"type":"string"},"default":{},"multipleOf":{"type":"number","minimum":0,"exclusiveMinimum":true},"maximum":{"type":"number"},"exclusiveMaximum":{"type":"boolean","default":false},"minimum":{"type":"number"},"exclusiveMinimum":{"type":"boolean","default":false},"maxLength":{"$ref":"#/definitions/positiveInteger"},"minLength":{"$ref":"#/definitions/positiveIntegerDefault0"},"pattern":{"type":"string","format":"regex"},"additionalItems":{"anyOf":[{"type":"boolean"},{"$ref":"#"}],"default":{}},"items":{"anyOf":[{"$ref":"#"},{"$ref":"#/definitions/schemaArray"}],"default":{}},"maxItems":{"$ref":"#/definitions/positiveInteger"},"minItems":{"$ref":"#/definitions/positiveIntegerDefault0"},"uniqueItems":{"type":"boolean","default":false},"maxProperties":{"$ref":"#/definitions/positiveInteger"},"minProperties":{"$ref":"#/definitions/positiveIntegerDefault0"},"required":{"$ref":"#/definitions/stringArray"},"additionalProperties":{"anyOf":[{"type":"boolean"},{"$ref":"#"}],"default":{}},"definitions":{"type":"object","additionalProperties":{"$ref":"#"},"default":{}},"properties":{"type":"object","additionalProperties":{"$ref":"#"},"default":{}},"patternProperties":{"type":"object","additionalProperties":{"$ref":"#"},"default":{}},"dependencies":{"type":"object","additionalProperties":{"anyOf":[{"$ref":"#"},{"$ref":"#/definitions/stringArray"}]}},"enum":{"type":"array","minItems":1,"uniqueItems":true},"type":{"anyOf":[{"$ref":"#/definitions/simpleTypes"},{"type":"array","items":{"$ref":"#/definitions/simpleTypes"},"minItems":1,"uniqueItems":true}]},"allOf":{"$ref":"#/definitions/schemaArray"},"anyOf":{"$ref":"#/definitions/schemaArray"},"oneOf":{"$ref":"#/definitions/schemaArray"},"not":{"$ref":"#"}},"dependencies":{"exclusiveMaximum":["maximum"],"exclusiveMinimum":["minimum"]},"default":{}}
 
 /***/ }),
-/* 147 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {"id":"https://raw.githubusercontent.com/epoberezkin/ajv/master/lib/refs/json-schema-v5.json#","$schema":"http://json-schema.org/draft-04/schema#","description":"Core schema meta-schema (v5 proposals)","definitions":{"schemaArray":{"type":"array","minItems":1,"items":{"$ref":"#"}},"positiveInteger":{"type":"integer","minimum":0},"positiveIntegerDefault0":{"allOf":[{"$ref":"#/definitions/positiveInteger"},{"default":0}]},"simpleTypes":{"enum":["array","boolean","integer","null","number","object","string"]},"stringArray":{"type":"array","items":{"type":"string"},"minItems":1,"uniqueItems":true},"$data":{"type":"object","required":["$data"],"properties":{"$data":{"type":"string","anyOf":[{"format":"relative-json-pointer"},{"format":"json-pointer"}]}},"additionalProperties":false}},"type":"object","properties":{"id":{"type":"string","format":"uri"},"$schema":{"type":"string","format":"uri"},"title":{"type":"string"},"description":{"type":"string"},"default":{},"multipleOf":{"anyOf":[{"type":"number","minimum":0,"exclusiveMinimum":true},{"$ref":"#/definitions/$data"}]},"maximum":{"anyOf":[{"type":"number"},{"$ref":"#/definitions/$data"}]},"exclusiveMaximum":{"anyOf":[{"type":"boolean","default":false},{"$ref":"#/definitions/$data"}]},"minimum":{"anyOf":[{"type":"number"},{"$ref":"#/definitions/$data"}]},"exclusiveMinimum":{"anyOf":[{"type":"boolean","default":false},{"$ref":"#/definitions/$data"}]},"maxLength":{"anyOf":[{"$ref":"#/definitions/positiveInteger"},{"$ref":"#/definitions/$data"}]},"minLength":{"anyOf":[{"$ref":"#/definitions/positiveIntegerDefault0"},{"$ref":"#/definitions/$data"}]},"pattern":{"anyOf":[{"type":"string","format":"regex"},{"$ref":"#/definitions/$data"}]},"additionalItems":{"anyOf":[{"type":"boolean"},{"$ref":"#"},{"$ref":"#/definitions/$data"}],"default":{}},"items":{"anyOf":[{"$ref":"#"},{"$ref":"#/definitions/schemaArray"}],"default":{}},"maxItems":{"anyOf":[{"$ref":"#/definitions/positiveInteger"},{"$ref":"#/definitions/$data"}]},"minItems":{"anyOf":[{"$ref":"#/definitions/positiveIntegerDefault0"},{"$ref":"#/definitions/$data"}]},"uniqueItems":{"anyOf":[{"type":"boolean","default":false},{"$ref":"#/definitions/$data"}]},"maxProperties":{"anyOf":[{"$ref":"#/definitions/positiveInteger"},{"$ref":"#/definitions/$data"}]},"minProperties":{"anyOf":[{"$ref":"#/definitions/positiveIntegerDefault0"},{"$ref":"#/definitions/$data"}]},"required":{"anyOf":[{"$ref":"#/definitions/stringArray"},{"$ref":"#/definitions/$data"}]},"additionalProperties":{"anyOf":[{"type":"boolean"},{"$ref":"#"},{"$ref":"#/definitions/$data"}],"default":{}},"definitions":{"type":"object","additionalProperties":{"$ref":"#"},"default":{}},"properties":{"type":"object","additionalProperties":{"$ref":"#"},"default":{}},"patternProperties":{"type":"object","additionalProperties":{"$ref":"#"},"default":{}},"dependencies":{"type":"object","additionalProperties":{"anyOf":[{"$ref":"#"},{"$ref":"#/definitions/stringArray"}]}},"enum":{"anyOf":[{"type":"array","minItems":1,"uniqueItems":true},{"$ref":"#/definitions/$data"}]},"type":{"anyOf":[{"$ref":"#/definitions/simpleTypes"},{"type":"array","items":{"$ref":"#/definitions/simpleTypes"},"minItems":1,"uniqueItems":true}]},"allOf":{"$ref":"#/definitions/schemaArray"},"anyOf":{"$ref":"#/definitions/schemaArray"},"oneOf":{"$ref":"#/definitions/schemaArray"},"not":{"$ref":"#"},"format":{"anyOf":[{"type":"string"},{"$ref":"#/definitions/$data"}]},"formatMaximum":{"anyOf":[{"type":"string"},{"$ref":"#/definitions/$data"}]},"formatMinimum":{"anyOf":[{"type":"string"},{"$ref":"#/definitions/$data"}]},"formatExclusiveMaximum":{"anyOf":[{"type":"boolean","default":false},{"$ref":"#/definitions/$data"}]},"formatExclusiveMinimum":{"anyOf":[{"type":"boolean","default":false},{"$ref":"#/definitions/$data"}]},"constant":{"anyOf":[{},{"$ref":"#/definitions/$data"}]},"contains":{"$ref":"#"},"patternGroups":{"type":"object","additionalProperties":{"type":"object","required":["schema"],"properties":{"maximum":{"anyOf":[{"$ref":"#/definitions/positiveInteger"},{"$ref":"#/definitions/$data"}]},"minimum":{"anyOf":[{"$ref":"#/definitions/positiveIntegerDefault0"},{"$ref":"#/definitions/$data"}]},"schema":{"$ref":"#"}},"additionalProperties":false},"default":{}},"switch":{"type":"array","items":{"required":["then"],"properties":{"if":{"$ref":"#"},"then":{"anyOf":[{"type":"boolean"},{"$ref":"#"}]},"continue":{"type":"boolean"}},"additionalProperties":false,"dependencies":{"continue":["if"]}}}},"dependencies":{"exclusiveMaximum":["maximum"],"exclusiveMinimum":["minimum"],"formatMaximum":["format"],"formatMinimum":["format"],"formatExclusiveMaximum":["formatMaximum"],"formatExclusiveMinimum":["formatMinimum"]},"default":{}}
 
 /***/ }),
-/* 148 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38207,14 +39605,14 @@ module.exports = {
 
 function enableV5(ajv) {
   var inlineFunctions = {
-    'switch': __webpack_require__(143),
-    'constant': __webpack_require__(129),
-    '_formatLimit': __webpack_require__(126),
-    'patternRequired': __webpack_require__(139)
+    'switch': __webpack_require__(153),
+    'constant': __webpack_require__(139),
+    '_formatLimit': __webpack_require__(136),
+    'patternRequired': __webpack_require__(149)
   };
 
   if (ajv._opts.meta !== false) {
-    var metaSchema = __webpack_require__(147);
+    var metaSchema = __webpack_require__(157);
     ajv.addMetaSchema(metaSchema, META_SCHEMA_ID);
   }
   _addKeyword('constant');
@@ -38250,15 +39648,15 @@ function containsMacro(schema) {
 
 
 /***/ }),
-/* 149 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports.parse = __webpack_require__(150);
-exports.stringify = __webpack_require__(151);
+exports.parse = __webpack_require__(160);
+exports.stringify = __webpack_require__(161);
 
 
 /***/ }),
-/* 150 */
+/* 160 */
 /***/ (function(module, exports) {
 
 var at, // The index of the current character
@@ -38537,7 +39935,7 @@ module.exports = function (source, reviver) {
 
 
 /***/ }),
-/* 151 */
+/* 161 */
 /***/ (function(module, exports) {
 
 var cx = /[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,
@@ -38697,7 +40095,7 @@ module.exports = function (value, replacer, space) {
 
 
 /***/ }),
-/* 152 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process) {// Copyright Joyent, Inc. and other Node contributors.
@@ -38925,10 +40323,10 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(48)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(54)))
 
 /***/ }),
-/* 153 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38965,9 +40363,9 @@ var substr = 'ab'.substr(-1) === 'b'
  */
 
 var supportedLoaders = {
-  file: __webpack_require__(154),
-  http: __webpack_require__(47),
-  https: __webpack_require__(47)
+  file: __webpack_require__(164),
+  http: __webpack_require__(53),
+  https: __webpack_require__(53)
 };
 var defaultLoader = typeof window === 'object' || typeof importScripts === 'function' ?
       supportedLoaders.http :
@@ -38976,7 +40374,7 @@ var defaultLoader = typeof window === 'object' || typeof importScripts === 'func
 // Load promises polyfill if necessary
 /* istanbul ignore if */
 if (typeof Promise === 'undefined') {
-  __webpack_require__(46);
+  __webpack_require__(52);
 }
 
 function getScheme (location) {
@@ -39164,7 +40562,7 @@ module.exports.load = function (location, options) {
 
 
 /***/ }),
-/* 154 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39220,7 +40618,7 @@ module.exports.load = function () {
 
 
 /***/ }),
-/* 155 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39311,7 +40709,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 156 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39403,7 +40801,7 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 157 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -39593,10 +40991,10 @@ var objectKeys = Object.keys || function (obj) {
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12), __webpack_require__(48)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13), __webpack_require__(54)))
 
 /***/ }),
-/* 158 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39614,7 +41012,7 @@ module.exports = function (str) {
 
 
 /***/ }),
-/* 159 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**!
@@ -41115,7 +42513,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**!
 
 
 /***/ }),
-/* 160 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -41132,11 +42530,11 @@ if (typeof window !== 'undefined') { // Browser window
   root = this;
 }
 
-var Emitter = __webpack_require__(91);
-var RequestBase = __webpack_require__(161);
-var isObject = __webpack_require__(50);
-var ResponseBase = __webpack_require__(162);
-var shouldRetry = __webpack_require__(163);
+var Emitter = __webpack_require__(101);
+var RequestBase = __webpack_require__(171);
+var isObject = __webpack_require__(56);
+var ResponseBase = __webpack_require__(172);
+var shouldRetry = __webpack_require__(173);
 
 /**
  * Noop.
@@ -42027,13 +43425,13 @@ request.put = function(url, data, fn){
 
 
 /***/ }),
-/* 161 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
  * Module of mixed-in functions shared between node and client code
  */
-var isObject = __webpack_require__(50);
+var isObject = __webpack_require__(56);
 
 /**
  * Expose `RequestBase`.
@@ -42653,7 +44051,7 @@ RequestBase.prototype._setTimeouts = function() {
 
 
 /***/ }),
-/* 162 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -42661,7 +44059,7 @@ RequestBase.prototype._setTimeouts = function() {
  * Module dependencies.
  */
 
-var utils = __webpack_require__(164);
+var utils = __webpack_require__(174);
 
 /**
  * Expose `ResponseBase`.
@@ -42792,7 +44190,7 @@ ResponseBase.prototype._setStatusProperties = function(status){
 
 
 /***/ }),
-/* 163 */
+/* 173 */
 /***/ (function(module, exports) {
 
 var ERROR_CODES = [
@@ -42821,7 +44219,7 @@ module.exports = function shouldRetry(err, res) {
 
 
 /***/ }),
-/* 164 */
+/* 174 */
 /***/ (function(module, exports) {
 
 
@@ -42894,7 +44292,7 @@ exports.cleanHeader = function(header, shouldStripCookie){
 };
 
 /***/ }),
-/* 165 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = Function.prototype.apply;
@@ -42947,23 +44345,23 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(157);
+__webpack_require__(167);
 exports.setImmediate = setImmediate;
 exports.clearImmediate = clearImmediate;
 
 
 /***/ }),
-/* 166 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__uri__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__schemes_http__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__schemes_https__ = __webpack_require__(168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__schemes_mailto__ = __webpack_require__(169);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__schemes_urn__ = __webpack_require__(171);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__schemes_urn_uuid__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__uri__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__schemes_http__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__schemes_https__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__schemes_mailto__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__schemes_urn__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__schemes_urn_uuid__ = __webpack_require__(180);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SCHEMES", function() { return __WEBPACK_IMPORTED_MODULE_0__uri__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "pctEncChar", function() { return __WEBPACK_IMPORTED_MODULE_0__uri__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "pctDecChars", function() { return __WEBPACK_IMPORTED_MODULE_0__uri__["c"]; });
@@ -42991,21 +44389,21 @@ __WEBPACK_IMPORTED_MODULE_0__uri__["a" /* SCHEMES */]["urn:uuid"] = __WEBPACK_IM
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 167 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__regexps_uri__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__regexps_uri__ = __webpack_require__(57);
 
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__regexps_uri__["b" /* buildExps */])(true));
 //# sourceMappingURL=regexps-iri.js.map
 
 /***/ }),
-/* 168 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__http__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__http__ = __webpack_require__(58);
 
 /* harmony default export */ __webpack_exports__["a"] = ({
     scheme: "https",
@@ -43016,14 +44414,14 @@ __WEBPACK_IMPORTED_MODULE_0__uri__["a" /* SCHEMES */]["urn:uuid"] = __WEBPACK_IM
 //# sourceMappingURL=https.js.map
 
 /***/ }),
-/* 169 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__uri__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_punycode__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__uri__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_punycode__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_punycode___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_punycode__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(22);
 
 
 
@@ -43171,11 +44569,11 @@ function decodeUnreserved(str) {
 //# sourceMappingURL=mailto.js.map
 
 /***/ }),
-/* 170 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__uri__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__uri__ = __webpack_require__(12);
 
 const UUID = /^[0-9A-Fa-f]{8}(?:\-[0-9A-Fa-f]{4}){3}\-[0-9A-Fa-f]{12}$/;
 //RFC 4122
@@ -43203,11 +44601,11 @@ const UUID = /^[0-9A-Fa-f]{8}(?:\-[0-9A-Fa-f]{4}){3}\-[0-9A-Fa-f]{12}$/;
 //# sourceMappingURL=urn-uuid.js.map
 
 /***/ }),
-/* 171 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__uri__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__uri__ = __webpack_require__(12);
 
 const NID$ = "(?:[0-9A-Za-z][0-9A-Za-z\\-]{1,31})";
 const PCT_ENCODED$ = "(?:\\%[0-9A-Fa-f]{2})";
@@ -43259,7 +44657,7 @@ const URN_EXCLUDED = /[\x00-\x20\\\"\&\<\>\[\]\^\`\{\|\}\~\x7F-\xFF]/g;
 //# sourceMappingURL=urn.js.map
 
 /***/ }),
-/* 172 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43282,11 +44680,11 @@ module.exports = {
 
 
 /***/ }),
-/* 173 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var v1 = __webpack_require__(174);
-var v4 = __webpack_require__(175);
+var v1 = __webpack_require__(184);
+var v4 = __webpack_require__(185);
 
 var uuid = v4;
 uuid.v1 = v1;
@@ -43296,11 +44694,11 @@ module.exports = uuid;
 
 
 /***/ }),
-/* 174 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var rng = __webpack_require__(55);
-var bytesToUuid = __webpack_require__(54);
+var rng = __webpack_require__(61);
+var bytesToUuid = __webpack_require__(60);
 
 // **`v1()` - Generate time-based UUID**
 //
@@ -43402,11 +44800,11 @@ module.exports = v1;
 
 
 /***/ }),
-/* 175 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var rng = __webpack_require__(55);
-var bytesToUuid = __webpack_require__(54);
+var rng = __webpack_require__(61);
+var bytesToUuid = __webpack_require__(60);
 
 function v4(options, buf, offset) {
   var i = buf && offset || 0;
